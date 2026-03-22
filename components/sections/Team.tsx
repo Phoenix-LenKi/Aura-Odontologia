@@ -1,61 +1,82 @@
 "use client";
 
 import { content } from "@/lib/content";
-import Image from "next/image";
 import { motion } from "framer-motion";
+import Image from "next/image";
 
-export function Team() {
+const containerVariants = {
+  hidden: {},
+  visible: {
+    transition: { staggerChildren: 0.2 },
+  },
+};
+
+const memberVariants = {
+  hidden: { opacity: 0, y: 30 },
+  visible: {
+    opacity: 1,
+    y: 0,
+    transition: { duration: 0.7, type: "spring" as const, stiffness: 70 },
+  },
+};
+
+export default function Team() {
   return (
-    <section id="equipe" className="py-24 bg-muted/30">
-      <div className="container mx-auto px-4">
-        <div className="text-center max-w-3xl mx-auto mb-16">
-          <motion.h2 
-            initial={{ opacity: 0, y: 20 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
-            className="text-4xl font-bold tracking-tight text-foreground mb-6"
-          >
+    <section id="equipe" className="bg-terracotta py-24 md:py-32 overflow-hidden">
+      <div className="max-w-7xl mx-auto px-6">
+        <motion.div
+          initial={{ opacity: 0, y: 20 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true, margin: "-80px" }}
+          transition={{ duration: 0.6 }}
+          className="text-center mb-6"
+        >
+          <p className="text-white/60 text-sm uppercase tracking-[0.2em] font-medium mb-4">
+            Conheça
+          </p>
+          <h2 className="font-serif text-heading text-white mb-6">
             {content.team.title}
-          </motion.h2>
-          <motion.p 
-            initial={{ opacity: 0 }}
-            whileInView={{ opacity: 1 }}
-            viewport={{ once: true }}
-            className="text-lg text-muted-foreground leading-relaxed"
-          >
+          </h2>
+          <p className="text-white/80 text-base md:text-lg max-w-3xl mx-auto leading-relaxed">
             {content.team.description}
-          </motion.p>
-        </div>
+          </p>
+        </motion.div>
 
-        <div className="grid md:grid-cols-2 gap-12 max-w-5xl mx-auto">
-          {content.team.members.map((member, index) => (
+        <motion.div
+          variants={containerVariants}
+          initial="hidden"
+          whileInView="visible"
+          viewport={{ once: true, margin: "-80px" }}
+          className="grid md:grid-cols-2 gap-12 mt-16 max-w-4xl mx-auto"
+        >
+          {content.team.members.map((member) => (
             <motion.div
-              key={index}
-              initial={{ opacity: 0, y: 30 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true }}
-              transition={{ duration: 0.5, delay: index * 0.2 }}
-              className="bg-card rounded-[2rem] overflow-hidden shadow-lg border border-border/50 group"
+              key={member.name}
+              variants={memberVariants}
+              className="flex flex-col items-center text-center"
             >
-              <div className="relative h-[450px] overflow-hidden">
+              <div className="relative w-48 h-48 md:w-56 md:h-56 rounded-full overflow-hidden border-4 border-white/30 mb-6">
                 <Image
                   src={member.image}
                   alt={member.name}
                   fill
-                  className="object-cover group-hover:scale-105 transition-transform duration-700"
+                  className="object-cover"
+                  sizes="224px"
+                  quality={85}
                 />
               </div>
-              <div className="p-8 text-center flex flex-col items-center">
-                <h3 className="text-2xl font-bold mb-2">{member.name}</h3>
-                <div className="text-primary font-medium mb-1">{member.role}</div>
-                <div className="text-sm text-muted-foreground mb-4">{member.cro}</div>
-                <p className="text-muted-foreground/90 leading-relaxed text-sm">
-                  {member.education}
-                </p>
-              </div>
+              <h3 className="font-serif text-xl md:text-2xl text-white mb-1">
+                {member.name}
+              </h3>
+              <p className="text-white/60 text-sm font-medium mb-3">
+                {member.cro}
+              </p>
+              <p className="text-white/80 text-sm leading-relaxed max-w-sm">
+                {member.education}
+              </p>
             </motion.div>
           ))}
-        </div>
+        </motion.div>
       </div>
     </section>
   );

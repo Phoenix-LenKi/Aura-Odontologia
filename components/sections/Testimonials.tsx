@@ -1,56 +1,79 @@
 "use client";
 
 import { content } from "@/lib/content";
-import { Star } from "lucide-react";
 import { motion } from "framer-motion";
 
-export function Testimonials() {
-  return (
-    <section id="depoimentos" className="py-24 bg-background">
-      <div className="container mx-auto px-4">
-        <div className="text-center max-w-3xl mx-auto mb-16">
-          <motion.h2 
-            initial={{ opacity: 0, y: 20 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
-            className="text-4xl font-bold tracking-tight text-foreground mb-6"
-          >
-            {content.testimonials.title}
-          </motion.h2>
-          <motion.div 
-            initial={{ opacity: 0, scale: 0 }}
-            whileInView={{ opacity: 1, scale: 1 }}
-            viewport={{ once: true }}
-            className="w-24 h-1 bg-primary mx-auto mt-6 rounded-full"
-          />
-        </div>
+const containerVariants = {
+  hidden: {},
+  visible: {
+    transition: { staggerChildren: 0.12 },
+  },
+};
 
-        <div className="grid md:grid-cols-3 gap-8">
-          {content.testimonials.items.map((testimonial, index) => (
+const cardVariants = {
+  hidden: { opacity: 0, y: 25 },
+  visible: {
+    opacity: 1,
+    y: 0,
+    transition: { duration: 0.6, type: "spring" as const, stiffness: 80 },
+  },
+};
+
+export default function Testimonials() {
+  return (
+    <section id="depoimentos" className="bg-cream py-24 md:py-32">
+      <div className="max-w-7xl mx-auto px-6">
+        <motion.div
+          initial={{ opacity: 0, y: 20 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true, margin: "-80px" }}
+          transition={{ duration: 0.6 }}
+          className="text-center mb-16"
+        >
+          <p className="text-terracotta text-sm uppercase tracking-[0.2em] font-medium mb-4">
+            Depoimentos
+          </p>
+          <h2 className="font-serif text-heading text-charcoal">
+            {content.testimonials.title}
+          </h2>
+        </motion.div>
+
+        <motion.div
+          variants={containerVariants}
+          initial="hidden"
+          whileInView="visible"
+          viewport={{ once: true, margin: "-80px" }}
+          className="grid md:grid-cols-3 gap-8"
+        >
+          {content.testimonials.items.map((testimonial, i) => (
             <motion.div
-              key={index}
-              initial={{ opacity: 0, y: 30 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true }}
-              transition={{ duration: 0.5, delay: index * 0.1 }}
-              className="bg-card p-10 rounded-3xl shadow-md border border-border/50 hover:shadow-xl transition-shadow relative"
+              key={i}
+              variants={cardVariants}
+              className="bg-white p-8 relative"
             >
-              <div className="flex gap-1 mb-6 text-[#FADE3C]">
-                <Star className="w-5 h-5 fill-current" />
-                <Star className="w-5 h-5 fill-current" />
-                <Star className="w-5 h-5 fill-current" />
-                <Star className="w-5 h-5 fill-current" />
-                <Star className="w-5 h-5 fill-current" />
-              </div>
-              <p className="text-muted-foreground/90 leading-relaxed mb-6 italic">
-                "{testimonial.text}"
+              {/* Quote mark */}
+              <span className="absolute top-4 left-6 text-terracotta/15 font-serif text-[80px] leading-none select-none">
+                &ldquo;
+              </span>
+
+              <p className="text-charcoal-light text-sm leading-relaxed relative z-10 mb-6 pt-8">
+                {testimonial.text}
               </p>
-              <div className="text-foreground font-semibold">
-                {testimonial.name}
+
+              <div className="flex items-center gap-3">
+                <div className="w-10 h-10 rounded-full bg-terracotta/10 flex items-center justify-center">
+                  <span className="text-terracotta font-serif text-lg">
+                    {testimonial.name.charAt(0)}
+                  </span>
+                </div>
+                <div>
+                  <p className="text-charcoal font-medium text-sm">{testimonial.name}</p>
+                  <p className="text-charcoal-light text-xs">Paciente</p>
+                </div>
               </div>
             </motion.div>
           ))}
-        </div>
+        </motion.div>
       </div>
     </section>
   );

@@ -1,27 +1,29 @@
 export const brand = {
-  logoPath: "/logo.png",
-  fontHeading: "var(--font-heading)",
-  fontBody: "var(--font-body)",
-  tone: "clean, trust, premium, welcoming",
-  originalContrast: "low",
-  nicheDirection: "Saúde / Odontologia / Clínica de Alto Padrão",
-  motionLevel: "moderate-refined",
-  motionSources: ["fade", "reveal", "stagger"],
+  logoPath: "/logo.svg",
+  fontHeading: "DM Serif Display",
+  fontBody: "Inter",
+  tone: "warm-professional" as const,
+  originalContrast: "medium" as const,
+  nicheDirection: "saude-odonto-clinica" as const,
+  motionLevel: "moderate" as const,
+  motionSources: ["framer-motion"],
+
   brandColors: {
-    primary: "#0F172A", // Slate 900 for a deep, trustworthy premium clinical appearance
-    secondary: "#38BDF8", // Light Sky Blue for accents, representing health and clarity
-    background: "#F8FAFC", // Slate 50, crisp warm off-white for a cleaner feel
-    surface: "#FFFFFF",
-    surfaceAlt: "#EFF6FF", // Blue 50 for subtle section offsets
-    text: "#334155", // Slate 700 for main body
-    muted: "#94A3B8", // Slate 400
-    border: "#E2E8F0", // Slate 200
-    accent: "#6366F1", // Indigo 500
+    primary: "#b5553a",
+    secondary: "#95452f",
+    background: "#ffffff",
+    surface: "#f7f7f7",
+    surfaceAlt: "#b5553a",
+    text: "#2d2d2d",
+    muted: "#5d5d61",
+    border: "rgba(45, 45, 45, 0.08)",
+    accent: "#c97a64",
   },
-  radius: "0.5rem", // modern, slight roundness implies approachability
-  shadowStyle: "0 4px 6px -1px rgb(0 0 0 / 0.05), 0 2px 4px -2px rgb(0 0 0 / 0.05)",
-  buttonStyle: "rounded-md",
-  cardStyle: "clean-border",
-  heroStyle: "side-by-side-clean",
-  sectionDensity: "spacious"
+
+  radius: "sm" as const,
+  shadowStyle: "minimal" as const,
+  buttonStyle: "solid-sharp" as const,
+  cardStyle: "flat-bordered" as const,
+  heroStyle: "fullscreen-image-overlay" as const,
+  sectionDensity: "comfortable" as const,
 };

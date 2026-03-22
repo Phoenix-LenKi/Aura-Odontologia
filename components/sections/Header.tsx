@@ -1,40 +1,98 @@
 "use client";
 
-import Link from "next/link";
+import { useState } from "react";
 import { content } from "@/lib/content";
-import { Button } from "@/components/ui/button";
+import { motion, AnimatePresence } from "framer-motion";
 
-export function Header() {
+const navLinks = [
+  { label: "Início", href: "#inicio" },
+  { label: "Sobre", href: "#sobre" },
+  { label: "Tratamentos", href: "#tratamentos" },
+  { label: "Equipe", href: "#equipe" },
+  { label: "Depoimentos", href: "#depoimentos" },
+  { label: "Contato", href: "#contato" },
+];
+
+export default function Header() {
+  const [isOpen, setIsOpen] = useState(false);
+
   return (
-    <header className="sticky top-0 z-50 w-full border-b bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
-      <div className="container mx-auto px-4 h-20 flex items-center justify-between">
-        <Link href="/" className="flex items-center gap-2">
-          <span className="text-xl font-bold bg-gradient-to-r from-primary to-primary/80 bg-clip-text text-transparent">
-            Aura Odontologia
-          </span>
-        </Link>
+    <header className="fixed top-0 left-0 right-0 z-50 bg-terracotta">
+      <div className="max-w-7xl mx-auto px-6 flex items-center justify-between h-16">
+        <a href="#inicio" className="text-white font-serif text-lg tracking-wide">
+          {content.companyName}
+        </a>
+
+        {/* Desktop Nav */}
         <nav className="hidden md:flex items-center gap-8">
-          <Link href="#sobre" className="text-sm font-medium text-foreground/80 hover:text-primary transition-colors">
-            Quem somos
-          </Link>
-          <Link href="#tratamentos" className="text-sm font-medium text-foreground/80 hover:text-primary transition-colors">
-            Tratamentos
-          </Link>
-          <Link href="#equipe" className="text-sm font-medium text-foreground/80 hover:text-primary transition-colors">
-            Equipe
-          </Link>
-          <Link href="#depoimentos" className="text-sm font-medium text-foreground/80 hover:text-primary transition-colors">
-            Depoimentos
-          </Link>
-        </nav>
-        <div className="flex items-center gap-4">
-          <Button asChild className="rounded-full shadow-md hover:shadow-lg transition-all">
-            <a href={content.whatsappUrl} target="_blank" rel="noopener noreferrer">
-              Agendar Consulta
+          {navLinks.map((link) => (
+            <a
+              key={link.href}
+              href={link.href}
+              className="text-white/80 text-sm font-medium hover:text-white transition-colors duration-200"
+            >
+              {link.label}
             </a>
-          </Button>
-        </div>
+          ))}
+          <a
+            href={content.whatsappUrl}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="bg-white text-terracotta text-sm font-semibold px-5 py-2 rounded-sm hover:bg-cream transition-colors duration-200"
+          >
+            Agendar Consulta
+          </a>
+        </nav>
+
+        {/* Mobile Toggle */}
+        <button
+          onClick={() => setIsOpen(!isOpen)}
+          className="md:hidden text-white p-2"
+          aria-label="Menu"
+        >
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+            {isOpen ? (
+              <path d="M18 6L6 18M6 6l12 12" />
+            ) : (
+              <path d="M3 12h18M3 6h18M3 18h18" />
+            )}
+          </svg>
+        </button>
       </div>
+
+      {/* Mobile Menu */}
+      <AnimatePresence>
+        {isOpen && (
+          <motion.nav
+            initial={{ height: 0, opacity: 0 }}
+            animate={{ height: "auto", opacity: 1 }}
+            exit={{ height: 0, opacity: 0 }}
+            transition={{ duration: 0.3, ease: "easeInOut" }}
+            className="md:hidden bg-terracotta-dark overflow-hidden"
+          >
+            <div className="px-6 py-4 flex flex-col gap-4">
+              {navLinks.map((link) => (
+                <a
+                  key={link.href}
+                  href={link.href}
+                  onClick={() => setIsOpen(false)}
+                  className="text-white/90 text-base font-medium hover:text-white transition-colors"
+                >
+                  {link.label}
+                </a>
+              ))}
+              <a
+                href={content.whatsappUrl}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="bg-white text-terracotta text-center font-semibold px-5 py-3 rounded-sm mt-2"
+              >
+                Agendar Consulta
+              </a>
+            </div>
+          </motion.nav>
+        )}
+      </AnimatePresence>
     </header>
   );
 }
