@@ -1,60 +1,60 @@
-import Image from "next/image";
-import Link from "next/link";
+"use client";
+
 import { content } from "@/lib/content";
 import { Button } from "@/components/ui/button";
+import Image from "next/image";
+import { motion } from "framer-motion";
 
 export function Hero() {
   return (
-    <section className="relative overflow-hidden bg-background py-20 lg:py-32">
-      <div className="container mx-auto px-4 lg:px-8">
-        <div className="grid gap-12 lg:grid-cols-2 lg:gap-8 items-center">
-          <div className="flex max-w-2xl flex-col gap-6">
-            <h1 className="text-4xl font-bold leading-tight tracking-tighter sm:text-5xl md:text-6xl text-primary">
-              {content.heroTitle}
+    <section className="relative overflow-hidden bg-background pt-20 pb-32">
+      <div className="container mx-auto px-4 relative z-10">
+        <div className="grid lg:grid-cols-2 gap-12 items-center">
+          <motion.div 
+            initial={{ opacity: 0, y: 20 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.8 }}
+            className="flex flex-col items-start gap-6"
+          >
+            <div className="inline-flex items-center rounded-full border px-2.5 py-0.5 text-xs font-semibold bg-primary/10 text-primary border-primary/20">
+              {content.hero.badge}
+            </div>
+            <h1 className="text-5xl lg:text-6xl font-extrabold tracking-tight text-foreground leading-[1.1]">
+              Aura <span className="text-primary">Odontologia Integrada</span>
             </h1>
-            <p className="text-lg text-muted-foreground sm:text-xl leading-relaxed">
-              {content.heroSubtitle}
+            <p className="text-xl text-muted-foreground leading-relaxed max-w-[600px]">
+              {content.hero.subtitle}
             </p>
-            <div className="flex flex-col sm:flex-row gap-4 mt-4">
-              <Button size="lg" asChild className="bg-primary hover:bg-primary/90 text-primary-foreground font-semibold px-8 h-14 w-full sm:w-auto text-base">
-                <Link href={content.primaryCtaHref} target="_blank" rel="noopener noreferrer">
-                  {content.primaryCtaLabel}
-                </Link>
+            <div className="flex flex-wrap gap-4 mt-4">
+              <Button size="lg" asChild className="rounded-full h-14 px-8 text-base shadow-lg hover:shadow-xl transition-all">
+                <a href={content.whatsappUrl} target="_blank" rel="noopener noreferrer">
+                  {content.hero.primaryCta}
+                </a>
               </Button>
-              <Button size="lg" variant="outline" asChild className="font-semibold px-8 h-14 w-full sm:w-auto text-base border-2">
-                <Link href={content.secondaryCtaHref}>
-                  {content.secondaryCtaLabel}
-                </Link>
+              <Button size="lg" variant="outline" asChild className="rounded-full h-14 px-8 text-base">
+                <a href="#sobre">
+                  {content.hero.secondaryCta}
+                </a>
               </Button>
             </div>
-            
-            <div className="mt-8 pt-8 border-t border-border flex flex-wrap gap-x-8 gap-y-4 text-sm text-muted-foreground">
-              <div className="flex items-center gap-2">
-                <div className="h-2 w-2 rounded-full bg-secondary" />
-                <span>Atendimento Personalizado</span>
-              </div>
-              <div className="flex items-center gap-2">
-                <div className="h-2 w-2 rounded-full bg-secondary" />
-                <span>Odontopediatria e Alta Complexidade</span>
-              </div>
-            </div>
-          </div>
-          
-          <div className="relative mx-auto w-full max-w-[500px] lg:max-w-none aspect-[4/5] lg:aspect-square overflow-hidden rounded-2xl md:rounded-[2rem] bg-accent/30 shadow-2xl">
-            {/* Using one of the provided real images from Phase 1 */}
-            <Image 
-              src="/lead-assets/IMG_3644_JPEG.jpeg"
-              alt="Aura Odontologia Integrada"
+          </motion.div>
+          <motion.div 
+            initial={{ opacity: 0, scale: 0.95 }}
+            animate={{ opacity: 1, scale: 1 }}
+            transition={{ duration: 0.8, delay: 0.2 }}
+            className="relative lg:h-[600px] h-[400px] w-full rounded-[2rem] overflow-hidden shadow-2xl"
+          >
+            <Image
+              src={content.hero.image}
+              alt={content.companyName}
               fill
-              className="object-cover object-center"
+              className="object-cover"
               priority
-              sizes="(max-width: 768px) 100vw, 50vw"
             />
-            {/* Premium Overlay effect */}
-            <div className="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent" />
-          </div>
+          </motion.div>
         </div>
       </div>
+      <div className="absolute top-0 right-0 -z-10 w-[800px] h-[800px] bg-primary/5 rounded-full blur-3xl translate-x-1/3 -translate-y-1/3" />
     </section>
   );
 }

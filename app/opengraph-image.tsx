@@ -2,8 +2,7 @@ import { ImageResponse } from "next/og";
 import { content } from "@/lib/content";
 
 export const runtime = "edge";
-
-export const alt = content.seoTitle;
+export const alt = content.seo.title;
 export const size = {
   width: 1200,
   height: 630,
@@ -15,7 +14,7 @@ export default async function Image() {
     (
       <div
         style={{
-          background: "linear-gradient(to bottom right, #fbfdfe, #f1f5f9)",
+          background: "linear-gradient(to bottom right, #2b5672, #1a3648)",
           width: "100%",
           height: "100%",
           display: "flex",
@@ -23,7 +22,6 @@ export default async function Image() {
           alignItems: "center",
           justifyContent: "center",
           padding: "80px",
-          fontFamily: "sans-serif",
         }}
       >
         <div
@@ -32,48 +30,47 @@ export default async function Image() {
             alignItems: "center",
             justifyContent: "center",
             marginBottom: "40px",
+            background: "rgba(255,255,255,0.1)",
+            padding: "20px 40px",
+            borderRadius: "100px",
+            border: "1px solid rgba(255,255,255,0.2)",
           }}
         >
-          <svg
-            width="80"
-            height="80"
-            viewBox="0 0 24 24"
-            fill="none"
-            stroke="#16a34a"
-            strokeWidth="2"
-            strokeLinecap="round"
-            strokeLinejoin="round"
+          <span
+            style={{
+              fontSize: "48px",
+              fontWeight: "bold",
+              color: "white",
+              letterSpacing: "-0.05em",
+            }}
           >
-            <path d="M12 2v20M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6" />
-          </svg>
-          <span style={{ fontSize: "64px", fontWeight: "bold", color: "#0f172a", marginLeft: "24px" }}>
-            Aura Odontologia
+            {content.companyName}
           </span>
         </div>
-        
+
         <h1
           style={{
             fontSize: "72px",
             fontWeight: 800,
-            color: "#0f172a",
+            color: "white",
             textAlign: "center",
             lineHeight: 1.1,
-            marginBottom: "32px",
-            maxWidth: "1000px"
+            marginBottom: "30px",
+            maxWidth: "1000px",
           }}
         >
-          {content.heroTitle}
+          {content.hero.title}
         </h1>
         
         <p
           style={{
             fontSize: "36px",
-            color: "#64748b",
+            color: "#cbd5e1",
             textAlign: "center",
             maxWidth: "800px"
           }}
         >
-          {content.heroSubtitle}
+          {content.hero.subtitle}
         </p>
       </div>
     ),

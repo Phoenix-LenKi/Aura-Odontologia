@@ -7,11 +7,11 @@
     --background: #F8FAFC;
     --foreground: #334155;
     
-    --primary: #0F172A;
+    --primary: #2b5672; /* 204 45% 31% */
     --primary-foreground: #FFFFFF;
-    
-    --secondary: #38BDF8;
-    --secondary-foreground: #0F172A;
+
+    --secondary: #b5553a; /* 13 53% 47% */
+    --secondary-foreground: #FFFFFF;
 
     --muted: #F1F5F9;
     --muted-foreground: #64748B;

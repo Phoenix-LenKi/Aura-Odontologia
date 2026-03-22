@@ -14,13 +14,13 @@ const fontBody = Inter({
 });
 
 export const metadata: Metadata = {
-  title: content.seoTitle,
-  description: content.seoDescription,
-  keywords: ["Odontologia", "Florianópolis", "Dentista", "Implantes", "Odontopediatria", "Aura Odontologia"],
+  title: content.seo.title,
+  description: content.seo.description,
+  keywords: content.seo.keywords,
   openGraph: {
-    title: content.seoTitle,
-    description: content.seoDescription,
-    url: "https://auraodontologiaintegrada.vercel.app", // Adjust with your actual vercel domain
+    title: content.seo.title,
+    description: content.seo.description,
+    url: content.whatsappUrl,
     siteName: content.companyName,
     locale: "pt_BR",
     type: "website",
