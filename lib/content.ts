@@ -13,14 +13,14 @@ export const content = {
     subtitle: "Estamos comprometidos em fornecer atendimento de qualidade para toda a família. Marque sua consulta hoje mesmo!",
     primaryCta: "Fale no WhatsApp",
     secondaryCta: "Conheça a clínica",
-    image: "https://static.wixstatic.com/media/4c4131_6ad07df1df4d41b3a5e0c950000f7e29~mv2.jpeg/v1/fill/w_1920,h_1080,al_c,q_90/IMG_3644.jpeg"
+    image: "/lead-assets/home/4c4131_3672a5ed54614403b7c74df3bfc09af1~mv2.jpg"
   },
 
   about: {
     title: "Quem somos",
     description1: "A Aura Odontologia Integrada é mais que uma clínica odontológica. Nosso foco é proporcionar cuidados completos e personalizados para pacientes de todas as idades. Com uma equipe dedicada, garantimos um sorriso saudável e bonito para todos.",
     description2: "Nosso compromisso vai além do tratamento odontológico. Buscamos criar um ambiente acolhedor e tranquilo para nossos pacientes, garantindo que cada visita seja uma experiência positiva e confortável.",
-    image: "https://static.wixstatic.com/media/4c4131_497a23ab9d3845c080c82bbb64156fbf~mv2.jpg/v1/fill/w_1000,h_1000,al_c,q_90/clínica.jpg"
+    image: "/lead-assets/home/4c4131_6ef64849c07444a293fd8de10250d0f4~mv2.jpg"
   },
 
   services: {
@@ -68,14 +68,14 @@ export const content = {
         role: "Cirurgiã-dentista | Especialista em Odontopediatria",
         cro: "CRO/SC 16794",
         education: "Cirurgia-dentista formada em Odontologia pela Universidade Federal de Santa Catarina. Especialista em Odontopediatria. Especialista em Saúde da Família.",
-        image: "https://static.wixstatic.com/media/4c4131_e351f825dacc417186f04ccc70af910b~mv2.jpeg/v1/fill/w_1000,h_1000,al_c,q_90/luiza.jpg"
+        image: "/lead-assets/home/IMG_3619_JPEG.jpeg"
       },
       {
         name: "Priscila Saquet",
         role: "Cirurgiã-dentista | Especialista em Implantodontia",
         cro: "CRO/SC 15821",
         education: "Cirurgiã-dentista formada em Odontologia pela Universidade Federal de Santa Catarina. Especialista em Implantodontia. Residência Integrada Multidisciplinar em Odontologia de Alta Complexidade (HU/UFSC).",
-        image: "https://static.wixstatic.com/media/4c4131_6776acffd95943a480a9f76bfb73e960~mv2.jpeg/v1/fill/w_1000,h_1000,al_c,q_90/priscila.jpg"
+        image: "/lead-assets/home/IMG_3640_JPEG.jpeg"
       }
     ]
   },
