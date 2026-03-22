@@ -1,0 +1,1320 @@
+{
+  "tool": "phoenix-scraper",
+  "version": "2.0.0",
+  "originalSiteUrl": "https://www.auraodontologiaflorianopolis.com/",
+  "generatedAt": "2026-03-22T04:20:05Z",
+  "settings": {
+    "maxPages": 30,
+    "timeout": 20,
+    "delay": 0.0,
+    "includeSubdomains": true,
+    "includeExternalAssets": true
+  },
+  "summary": {
+    "pagesVisited": 5,
+    "assetsDownloaded": 24,
+    "uniqueAssets": 24,
+    "discoveredLinks": 5,
+    "errors": 24
+  },
+  "linksFound": [
+    "https://www.auraodontologiaflorianopolis.com/",
+    "https://www.auraodontologiaflorianopolis.com/accessibility-statement",
+    "https://www.auraodontologiaflorianopolis.com/copy-of-dutch-refund-policy",
+    "https://www.auraodontologiaflorianopolis.com/copy-of-dutch-terms-conditions",
+    "https://www.auraodontologiaflorianopolis.com/portuguese-privacy-policy"
+  ],
+  "pages": [
+    {
+      "url": "https://www.auraodontologiaflorianopolis.com/",
+      "slug": "home",
+      "title": "Início | Aura Odontologia I 1",
+      "status": "ok",
+      "localHtmlPath": "pages/home.html",
+      "imageCount": 24,
+      "images": [
+        {
+          "sourceUrl": "https://static.wixstatic.com/media/4c4131_66c2c585bb294e9eaa6265ffda0ab202~mv2.jpg/v1/fill/w_147,h_98,al_c,q_80,usm_0.66_1.00_0.01,blur_2,enc_avif,quality_auto/4c4131_66c2c585bb294e9eaa6265ffda0ab202~mv2.jpg",
+          "localPath": "images/home/4c4131_66c2c585bb294e9eaa6265ffda0ab202~mv2.jpg",
+          "sourceType": "img:src",
+          "selectorHint": "img",
+          "alt": "MCF_2785.JPG",
+          "roleHint": "general",
+          "mimeType": "image/jpeg",
+          "width": 147,
+          "height": 98,
+          "sizeBytes": 2918,
+          "sha1": "93ec05d8aa544180284e48f3a0c8fbf4ced1a922",
+          "qualityFlags": [
+            "low_resolution",
+            "small_for_hero",
+            "possibly_overcompressed"
+          ],
+          "foundOnPage": "https://www.auraodontologiaflorianopolis.com/"
+        },
+        {
+          "sourceUrl": "https://static.wixstatic.com/media/4c4131_6ad07df1df4d41b3a5e0c950000f7e29~mv2.jpeg/v1/crop/x_0,y_309,w_2592,h_2301/fill/w_519,h_461,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/IMG_3644_JPEG.jpeg",
+          "localPath": "images/home/IMG_3644_JPEG.jpeg",
+          "sourceType": "img:src",
+          "selectorHint": "img#img_comp-maq10mt6.BI8PVQ.Tj01hh",
+          "alt": "IMG_3644.JPEG",
+          "roleHint": "general",
+          "mimeType": "image/jpeg",
+          "width": 519,
+          "height": 461,
+          "sizeBytes": 65205,
+          "sha1": "a7beb7b76c3fb5fdd548869c7de8abb13ab9b339",
+          "qualityFlags": [
+            "small_for_hero"
+          ],
+          "foundOnPage": "https://www.auraodontologiaflorianopolis.com/"
+        },
+        {
+          "sourceUrl": "https://static.wixstatic.com/media/4c4131_6ef64849c07444a293fd8de10250d0f4~mv2.jpg/v1/fit/w_480,h_360,q_90,enc_avif,quality_auto/4c4131_6ef64849c07444a293fd8de10250d0f4~mv2.jpg",
+          "localPath": "images/home/4c4131_6ef64849c07444a293fd8de10250d0f4~mv2.jpg",
+          "sourceType": "img:src",
+          "selectorHint": "img#d39915d2-cc4a-4bf5-b92e-99acd538abd2.gallery-item-visible.gallery-item.gallery-item-preloaded",
+          "alt": "",
+          "roleHint": "gallery_or_product",
+          "mimeType": "image/jpeg",
+          "width": 392,
+          "height": 360,
+          "sizeBytes": 29905,
+          "sha1": "8c5f2f308598c216a22e0c24be23b5a3c3b40144",
+          "qualityFlags": [
+            "low_resolution",
+            "small_for_hero"
+          ],
+          "foundOnPage": "https://www.auraodontologiaflorianopolis.com/"
+        },
+        {
+          "sourceUrl": "https://static.wixstatic.com/media/4c4131_9e599c212b4944e78663a23ceb8d806b~mv2.jpg/v1/fit/w_480,h_360,q_90,enc_avif,quality_auto/4c4131_9e599c212b4944e78663a23ceb8d806b~mv2.jpg",
+          "localPath": "images/home/4c4131_9e599c212b4944e78663a23ceb8d806b~mv2.jpg",
+          "sourceType": "img:src",
+          "selectorHint": "img#d480ce2c-eb8b-4cac-90e7-0c846ab70be5.gallery-item-visible.gallery-item.gallery-item-preloaded",
+          "alt": "",
+          "roleHint": "gallery_or_product",
+          "mimeType": "image/jpeg",
+          "width": 480,
+          "height": 320,
+          "sizeBytes": 29656,
+          "sha1": "db8c328e41b977c10fc05e913357eeeef7934cad",
+          "qualityFlags": [
+            "low_resolution",
+            "small_for_hero"
+          ],
+          "foundOnPage": "https://www.auraodontologiaflorianopolis.com/"
+        },
+        {
+          "sourceUrl": "https://static.wixstatic.com/media/4c4131_3672a5ed54614403b7c74df3bfc09af1~mv2.jpg/v1/fill/w_480,h_360,fp_0.47_0.3,q_90,enc_avif,quality_auto/4c4131_3672a5ed54614403b7c74df3bfc09af1~mv2.jpg",
+          "localPath": "images/home/4c4131_3672a5ed54614403b7c74df3bfc09af1~mv2.jpg",
+          "sourceType": "img:src",
+          "selectorHint": "img#6ea138d2-3b10-424d-9ea3-dc2f73e0da42.gallery-item-visible.gallery-item.gallery-item-preloaded",
+          "alt": "",
+          "roleHint": "gallery_or_product",
+          "mimeType": "image/jpeg",
+          "width": 480,
+          "height": 360,
+          "sizeBytes": 30616,
+          "sha1": "dd2f7efc3c67f6b19643f181829e3a5a4f93cccf",
+          "qualityFlags": [
+            "low_resolution",
+            "small_for_hero"
+          ],
+          "foundOnPage": "https://www.auraodontologiaflorianopolis.com/"
+        },
+        {
+          "sourceUrl": "https://static.wixstatic.com/media/4c4131_497a23ab9d3845c080c82bbb64156fbf~mv2.jpg/v1/fit/w_480,h_360,q_90,enc_avif,quality_auto/4c4131_497a23ab9d3845c080c82bbb64156fbf~mv2.jpg",
+          "localPath": "images/home/4c4131_497a23ab9d3845c080c82bbb64156fbf~mv2.jpg",
+          "sourceType": "img:src",
+          "selectorHint": "img#820fda47-a984-4b90-a40a-d5d7cf44282e.gallery-item-visible.gallery-item.gallery-item-preloaded",
+          "alt": "",
+          "roleHint": "gallery_or_product",
+          "mimeType": "image/jpeg",
+          "width": 480,
+          "height": 320,
+          "sizeBytes": 27178,
+          "sha1": "89607a752c0c4bcd28266a5cf0c5c8886fea5433",
+          "qualityFlags": [
+            "low_resolution",
+            "small_for_hero"
+          ],
+          "foundOnPage": "https://www.auraodontologiaflorianopolis.com/"
+        },
+        {
+          "sourceUrl": "https://static.wixstatic.com/media/4c4131_f7a344dbc5584426a3407a49a456cd3f~mv2.jpg/v1/fit/w_480,h_360,q_90,enc_avif,quality_auto/4c4131_f7a344dbc5584426a3407a49a456cd3f~mv2.jpg",
+          "localPath": "images/home/4c4131_f7a344dbc5584426a3407a49a456cd3f~mv2.jpg",
+          "sourceType": "img:src",
+          "selectorHint": "img#97adb00b-ec84-41c2-9679-7e6a826d73c2.gallery-item-visible.gallery-item.gallery-item-preloaded",
+          "alt": "",
+          "roleHint": "gallery_or_product",
+          "mimeType": "image/jpeg",
+          "width": 480,
+          "height": 320,
+          "sizeBytes": 36774,
+          "sha1": "79263bef671e43a966f2f7df0fae3adcade8fae2",
+          "qualityFlags": [
+            "low_resolution",
+            "small_for_hero"
+          ],
+          "foundOnPage": "https://www.auraodontologiaflorianopolis.com/"
+        },
+        {
+          "sourceUrl": "https://static.wixstatic.com/media/4c4131_7ddaf18f84be4e38b240e298fb3a0d9c~mv2.jpg/v1/fit/w_480,h_360,q_90,enc_avif,quality_auto/4c4131_7ddaf18f84be4e38b240e298fb3a0d9c~mv2.jpg",
+          "localPath": "images/home/4c4131_7ddaf18f84be4e38b240e298fb3a0d9c~mv2.jpg",
+          "sourceType": "img:src",
+          "selectorHint": "img#9ff6d51c-fb84-43fc-ab32-5809f5873ec6.gallery-item-visible.gallery-item.gallery-item-preloaded",
+          "alt": "",
+          "roleHint": "gallery_or_product",
+          "mimeType": "image/jpeg",
+          "width": 480,
+          "height": 320,
+          "sizeBytes": 20888,
+          "sha1": "c8b78f9c0bd3fde2c1e264a3ba62327eabf523a8",
+          "qualityFlags": [
+            "low_resolution",
+            "small_for_hero"
+          ],
+          "foundOnPage": "https://www.auraodontologiaflorianopolis.com/"
+        },
+        {
+          "sourceUrl": "https://static.wixstatic.com/media/4c4131_b415817b3db349ac8801bfafcb0dabea~mv2.jpg/v1/fit/w_480,h_360,q_90,enc_avif,quality_auto/4c4131_b415817b3db349ac8801bfafcb0dabea~mv2.jpg",
+          "localPath": "images/home/4c4131_b415817b3db349ac8801bfafcb0dabea~mv2.jpg",
+          "sourceType": "img:src",
+          "selectorHint": "img#4503a958-6dd9-4d73-8a8a-1bfccfa16437.gallery-item-visible.gallery-item.gallery-item-preloaded",
+          "alt": "",
+          "roleHint": "gallery_or_product",
+          "mimeType": "image/jpeg",
+          "width": 480,
+          "height": 320,
+          "sizeBytes": 25957,
+          "sha1": "d07f9b6dbf8dd788d75a261e1466a7f7b397801c",
+          "qualityFlags": [
+            "low_resolution",
+            "small_for_hero"
+          ],
+          "foundOnPage": "https://www.auraodontologiaflorianopolis.com/"
+        },
+        {
+          "sourceUrl": "https://static.wixstatic.com/media/4c4131_7b3a7a15bfc947dba44f76400bbd2b3c~mv2.jpg/v1/fit/w_480,h_360,q_90,enc_avif,quality_auto/4c4131_7b3a7a15bfc947dba44f76400bbd2b3c~mv2.jpg",
+          "localPath": "images/home/4c4131_7b3a7a15bfc947dba44f76400bbd2b3c~mv2.jpg",
+          "sourceType": "img:src",
+          "selectorHint": "img#777646f8-b45e-421b-8f98-59ddf5c37eef.gallery-item-visible.gallery-item.gallery-item-preloaded",
+          "alt": "",
+          "roleHint": "gallery_or_product",
+          "mimeType": "image/jpeg",
+          "width": 480,
+          "height": 320,
+          "sizeBytes": 37253,
+          "sha1": "aa3053410137d8051da9cb3c1880f1d2685456e1",
+          "qualityFlags": [
+            "low_resolution",
+            "small_for_hero"
+          ],
+          "foundOnPage": "https://www.auraodontologiaflorianopolis.com/"
+        },
+        {
+          "sourceUrl": "https://static.wixstatic.com/media/4c4131_141e65ed5b6a4138a2641a14b4f16650~mv2.jpg/v1/fill/w_480,h_360,fp_0.43_0.71,q_90,enc_avif,quality_auto/4c4131_141e65ed5b6a4138a2641a14b4f16650~mv2.jpg",
+          "localPath": "images/home/4c4131_141e65ed5b6a4138a2641a14b4f16650~mv2.jpg",
+          "sourceType": "img:src",
+          "selectorHint": "img#58305d87-810d-49e9-a2f4-0c6a8c158cc0.gallery-item-visible.gallery-item.gallery-item-preloaded",
+          "alt": "",
+          "roleHint": "gallery_or_product",
+          "mimeType": "image/jpeg",
+          "width": 480,
+          "height": 360,
+          "sizeBytes": 24850,
+          "sha1": "8544abdd18cd99ebf4a3763cc8dcecbc8420352e",
+          "qualityFlags": [
+            "low_resolution",
+            "small_for_hero"
+          ],
+          "foundOnPage": "https://www.auraodontologiaflorianopolis.com/"
+        },
+        {
+          "sourceUrl": "https://static.wixstatic.com/media/4c4131_45d4a1cd56bd43fbaf1f5e7325893899~mv2.jpg/v1/fit/w_480,h_360,q_90,enc_avif,quality_auto/4c4131_45d4a1cd56bd43fbaf1f5e7325893899~mv2.jpg",
+          "localPath": "images/home/4c4131_45d4a1cd56bd43fbaf1f5e7325893899~mv2.jpg",
+          "sourceType": "img:src",
+          "selectorHint": "img#cf2233cd-c4e1-474b-87bc-f26cb3b3ade4.gallery-item-visible.gallery-item.gallery-item-preloaded",
+          "alt": "",
+          "roleHint": "gallery_or_product",
+          "mimeType": "image/jpeg",
+          "width": 480,
+          "height": 320,
+          "sizeBytes": 42092,
+          "sha1": "f550c8099efd09b92d26353645b52d92c7ef21ec",
+          "qualityFlags": [
+            "low_resolution",
+            "small_for_hero"
+          ],
+          "foundOnPage": "https://www.auraodontologiaflorianopolis.com/"
+        },
+        {
+          "sourceUrl": "https://static.wixstatic.com/media/4c4131_452989bfb2f4448c9d390c7c69ec2d9a~mv2.jpg/v1/fill/w_480,h_360,fp_0.36_0.5,q_90,enc_avif,quality_auto/4c4131_452989bfb2f4448c9d390c7c69ec2d9a~mv2.jpg",
+          "localPath": "images/home/4c4131_452989bfb2f4448c9d390c7c69ec2d9a~mv2.jpg",
+          "sourceType": "img:src",
+          "selectorHint": "img#f85407cb-4dca-4859-b9e7-1184287525ff.gallery-item-visible.gallery-item.gallery-item-preloaded",
+          "alt": "",
+          "roleHint": "gallery_or_product",
+          "mimeType": "image/jpeg",
+          "width": 480,
+          "height": 360,
+          "sizeBytes": 27975,
+          "sha1": "5762869611743fe7b394669dbfe1e2f424d703c9",
+          "qualityFlags": [
+            "low_resolution",
+            "small_for_hero"
+          ],
+          "foundOnPage": "https://www.auraodontologiaflorianopolis.com/"
+        },
+        {
+          "sourceUrl": "https://static.wixstatic.com/media/4c4131_ed2bdf88430d48d9a23bcd05853ff5b2~mv2.jpg/v1/fill/w_480,h_360,fp_0.71_0.41,q_90,enc_avif,quality_auto/4c4131_ed2bdf88430d48d9a23bcd05853ff5b2~mv2.jpg",
+          "localPath": "images/home/4c4131_ed2bdf88430d48d9a23bcd05853ff5b2~mv2.jpg",
+          "sourceType": "img:src",
+          "selectorHint": "img#898e2bd8-be82-4106-a838-f38d12afd497.gallery-item-visible.gallery-item.gallery-item-preloaded",
+          "alt": "",
+          "roleHint": "gallery_or_product",
+          "mimeType": "image/jpeg",
+          "width": 480,
+          "height": 360,
+          "sizeBytes": 25959,
+          "sha1": "c0ed0af971de60dbc6344b5b84ef5ec497a02d95",
+          "qualityFlags": [
+            "low_resolution",
+            "small_for_hero"
+          ],
+          "foundOnPage": "https://www.auraodontologiaflorianopolis.com/"
+        },
+        {
+          "sourceUrl": "https://static.wixstatic.com/media/4c4131_e351f825dacc417186f04ccc70af910b~mv2.jpeg/v1/fill/w_185,h_185,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/IMG_3619_JPEG.jpeg",
+          "localPath": "images/home/IMG_3619_JPEG.jpeg",
+          "sourceType": "img:src",
+          "selectorHint": "img#img_comp-ma9wtwhy.BI8PVQ.Tj01hh",
+          "alt": "IMG_3619.JPEG",
+          "roleHint": "general",
+          "mimeType": "image/jpeg",
+          "width": 185,
+          "height": 185,
+          "sizeBytes": 10098,
+          "sha1": "f1942a6829c4224b93f9757d703e7425105056d1",
+          "qualityFlags": [
+            "low_resolution",
+            "small_for_hero",
+            "possibly_overcompressed"
+          ],
+          "foundOnPage": "https://www.auraodontologiaflorianopolis.com/"
+        },
+        {
+          "sourceUrl": "https://static.wixstatic.com/media/4c4131_6776acffd95943a480a9f76bfb73e960~mv2.jpeg/v1/fill/w_185,h_185,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/IMG_3640_JPEG.jpeg",
+          "localPath": "images/home/IMG_3640_JPEG.jpeg",
+          "sourceType": "img:src",
+          "selectorHint": "img#img_comp-ma9wtwgj.BI8PVQ.Tj01hh",
+          "alt": "IMG_3640.JPEG",
+          "roleHint": "general",
+          "mimeType": "image/jpeg",
+          "width": 185,
+          "height": 185,
+          "sizeBytes": 10766,
+          "sha1": "e2ddb8f2752fb4f52dfe2aace6b2a6bc3ad8fc0a",
+          "qualityFlags": [
+            "low_resolution",
+            "small_for_hero",
+            "possibly_overcompressed"
+          ],
+          "foundOnPage": "https://www.auraodontologiaflorianopolis.com/"
+        },
+        {
+          "sourceUrl": "https://static.wixstatic.com/media/4c4131_3ce4a84e1b3841789d042b8de84db6d5~mv2.jpg/v1/fill/w_123,h_88,al_c,q_80,usm_0.66_1.00_0.01,blur_2,enc_avif,quality_auto/4c4131_3ce4a84e1b3841789d042b8de84db6d5~mv2.jpg",
+          "localPath": "images/home/4c4131_3ce4a84e1b3841789d042b8de84db6d5~mv2.jpg",
+          "sourceType": "img:src",
+          "selectorHint": "img",
+          "alt": "imgs-galeria-gobotower-01.jpg",
+          "roleHint": "gallery_or_product",
+          "mimeType": "image/jpeg",
+          "width": 123,
+          "height": 88,
+          "sizeBytes": 2611,
+          "sha1": "0a27ba54810e07fcec15683d74c46116daeda38f",
+          "qualityFlags": [
+            "low_resolution",
+            "small_for_hero",
+            "possibly_overcompressed"
+          ],
+          "foundOnPage": "https://www.auraodontologiaflorianopolis.com/"
+        },
+        {
+          "sourceUrl": "https://static.wixstatic.com/media/11062b_4241ee73561f4180ac4a3fef4e42f9d5~mv2.png/v1/fill/w_124,h_235,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/11062b_4241ee73561f4180ac4a3fef4e42f9d5~mv2.png",
+          "localPath": "images/home/11062b_4241ee73561f4180ac4a3fef4e42f9d5~mv2.png",
+          "sourceType": "img:src",
+          "selectorHint": "img#img_comp-mapgxekm.BI8PVQ.Tj01hh",
+          "alt": "",
+          "roleHint": "general",
+          "mimeType": "image/png",
+          "width": 124,
+          "height": 235,
+          "sizeBytes": 13059,
+          "sha1": "17828ef5f0b3c8afa1d460b28c26ff42aca5b2d2",
+          "qualityFlags": [
+            "low_resolution",
+            "small_for_hero",
+            "possibly_overcompressed"
+          ],
+          "foundOnPage": "https://www.auraodontologiaflorianopolis.com/"
+        },
+        {
+          "sourceUrl": "https://static.wixstatic.com/media/4c4131_b6402f09205e41d18d53d599754f9a8f~mv2.jpg/v1/fill/w_377,h_251,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/4c4131_b6402f09205e41d18d53d599754f9a8f~mv2.jpg",
+          "localPath": "images/home/4c4131_b6402f09205e41d18d53d599754f9a8f~mv2.jpg",
+          "sourceType": "img:src",
+          "selectorHint": "img#img_comp-maph7kbb.BI8PVQ.Tj01hh",
+          "alt": "",
+          "roleHint": "general",
+          "mimeType": "image/jpeg",
+          "width": 377,
+          "height": 251,
+          "sizeBytes": 16464,
+          "sha1": "e21033f19d666d7027be051895d1463d7c8225a3",
+          "qualityFlags": [
+            "low_resolution",
+            "small_for_hero"
+          ],
+          "foundOnPage": "https://www.auraodontologiaflorianopolis.com/"
+        },
+        {
+          "sourceUrl": "https://static.wixstatic.com/media/4c4131_42aec306438344ea8fe83f0d7f4c94a0~mv2.jpeg/v1/fill/w_377,h_251,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/4c4131_42aec306438344ea8fe83f0d7f4c94a0~mv2.jpeg",
+          "localPath": "images/home/4c4131_42aec306438344ea8fe83f0d7f4c94a0~mv2.jpeg",
+          "sourceType": "img:src",
+          "selectorHint": "img#img_comp-maph5oqz.BI8PVQ.Tj01hh",
+          "alt": "",
+          "roleHint": "general",
+          "mimeType": "image/jpeg",
+          "width": 377,
+          "height": 251,
+          "sizeBytes": 16831,
+          "sha1": "348490843814c26982eba292625805b9fa55140d",
+          "qualityFlags": [
+            "low_resolution",
+            "small_for_hero"
+          ],
+          "foundOnPage": "https://www.auraodontologiaflorianopolis.com/"
+        },
+        {
+          "sourceUrl": "https://static.wixstatic.com/media/4c4131_b4a7c3bd67a14e7cad598dc3d4ea0641~mv2.jpg/v1/fill/w_377,h_251,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/4c4131_b4a7c3bd67a14e7cad598dc3d4ea0641~mv2.jpg",
+          "localPath": "images/home/4c4131_b4a7c3bd67a14e7cad598dc3d4ea0641~mv2.jpg",
+          "sourceType": "img:src",
+          "selectorHint": "img#img_comp-maph8t0j.BI8PVQ.Tj01hh",
+          "alt": "",
+          "roleHint": "general",
+          "mimeType": "image/jpeg",
+          "width": 377,
+          "height": 251,
+          "sizeBytes": 20416,
+          "sha1": "bbe4837e6153d68c061d19a654d0083e450795ad",
+          "qualityFlags": [
+            "low_resolution",
+            "small_for_hero"
+          ],
+          "foundOnPage": "https://www.auraodontologiaflorianopolis.com/"
+        },
+        {
+          "sourceUrl": "https://static.wixstatic.com/media/11062b_55e4be1e75564866b6c28290f9a9d271~mv2.png/v1/fill/w_71,h_71,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/11062b_55e4be1e75564866b6c28290f9a9d271~mv2.png",
+          "localPath": "images/home/11062b_55e4be1e75564866b6c28290f9a9d271~mv2.png",
+          "sourceType": "img:src",
+          "selectorHint": "img#img_0_comp-ma9wtw33.YaS0jR.Tj01hh",
+          "alt": "Instagram",
+          "roleHint": "general",
+          "mimeType": "image/png",
+          "width": 71,
+          "height": 71,
+          "sizeBytes": 9615,
+          "sha1": "6b2b410aa461a4843c995f7bbc0b73a4deb24822",
+          "qualityFlags": [
+            "low_resolution",
+            "small_for_hero",
+            "possibly_overcompressed"
+          ],
+          "foundOnPage": "https://www.auraodontologiaflorianopolis.com/"
+        },
+        {
+          "sourceUrl": "https://static.wixstatic.com/media/4c4131_7eb0a14276ec4f27831532af0c47ca90~mv2.jpeg/v1/fill/w_123,h_184,al_c,q_80,usm_0.66_1.00_0.01,blur_2,enc_avif,quality_auto/4c4131_7eb0a14276ec4f27831532af0c47ca90~mv2.jpeg",
+          "localPath": "images/home/4c4131_7eb0a14276ec4f27831532af0c47ca90~mv2.jpeg",
+          "sourceType": "img:src",
+          "selectorHint": "img",
+          "alt": "IMG_3613.JPEG",
+          "roleHint": "general",
+          "mimeType": "image/jpeg",
+          "width": 123,
+          "height": 184,
+          "sizeBytes": 4815,
+          "sha1": "81e7bb39613cd5eadb67a3280869776990fcfa13",
+          "qualityFlags": [
+            "low_resolution",
+            "small_for_hero",
+            "possibly_overcompressed"
+          ],
+          "foundOnPage": "https://www.auraodontologiaflorianopolis.com/"
+        },
+        {
+          "sourceUrl": "https://static.parastorage.com/client/pfavico.ico",
+          "localPath": "images/home/pfavico.ico",
+          "sourceType": "link:icon",
+          "selectorHint": "icon",
+          "alt": "",
+          "roleHint": "logo_or_icon",
+          "mimeType": "image/vnd.microsoft.icon",
+          "width": 16,
+          "height": 16,
+          "sizeBytes": 1150,
+          "sha1": "292d9aeb457ab7fedbad452854332aeff267a78e",
+          "qualityFlags": [
+            "low_resolution"
+          ],
+          "foundOnPage": "https://www.auraodontologiaflorianopolis.com/"
+        }
+      ],
+      "discoveredInternalLinks": [
+        "https://www.auraodontologiaflorianopolis.com/",
+        "https://www.auraodontologiaflorianopolis.com/accessibility-statement",
+        "https://www.auraodontologiaflorianopolis.com/copy-of-dutch-refund-policy",
+        "https://www.auraodontologiaflorianopolis.com/copy-of-dutch-terms-conditions",
+        "https://www.auraodontologiaflorianopolis.com/portuguese-privacy-policy"
+      ]
+    },
+    {
+      "url": "https://www.auraodontologiaflorianopolis.com/accessibility-statement",
+      "slug": "accessibility-statement",
+      "title": "Declaração de acessibilidade | Aura Odontologia I 1",
+      "status": "ok",
+      "localHtmlPath": "pages/accessibility-statement.html",
+      "imageCount": 3,
+      "images": [
+        {
+          "sourceUrl": "https://static.wixstatic.com/media/11062b_55e4be1e75564866b6c28290f9a9d271~mv2.png/v1/fill/w_71,h_71,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/11062b_55e4be1e75564866b6c28290f9a9d271~mv2.png",
+          "localPath": "images/home/11062b_55e4be1e75564866b6c28290f9a9d271~mv2.png",
+          "sourceType": "img:src",
+          "selectorHint": "img#img_0_comp-ma9wtw33.YaS0jR.Tj01hh",
+          "alt": "Instagram",
+          "roleHint": "general",
+          "mimeType": "image/png",
+          "width": 71,
+          "height": 71,
+          "sizeBytes": 9615,
+          "sha1": "6b2b410aa461a4843c995f7bbc0b73a4deb24822",
+          "qualityFlags": [
+            "low_resolution",
+            "small_for_hero",
+            "possibly_overcompressed"
+          ],
+          "foundOnPage": "https://www.auraodontologiaflorianopolis.com/accessibility-statement",
+          "reusedFromCache": true
+        },
+        {
+          "sourceUrl": "https://static.wixstatic.com/media/4c4131_7eb0a14276ec4f27831532af0c47ca90~mv2.jpeg/v1/fill/w_123,h_184,al_c,q_80,usm_0.66_1.00_0.01,blur_2,enc_avif,quality_auto/4c4131_7eb0a14276ec4f27831532af0c47ca90~mv2.jpeg",
+          "localPath": "images/home/4c4131_7eb0a14276ec4f27831532af0c47ca90~mv2.jpeg",
+          "sourceType": "img:src",
+          "selectorHint": "img",
+          "alt": "IMG_3613.JPEG",
+          "roleHint": "general",
+          "mimeType": "image/jpeg",
+          "width": 123,
+          "height": 184,
+          "sizeBytes": 4815,
+          "sha1": "81e7bb39613cd5eadb67a3280869776990fcfa13",
+          "qualityFlags": [
+            "low_resolution",
+            "small_for_hero",
+            "possibly_overcompressed"
+          ],
+          "foundOnPage": "https://www.auraodontologiaflorianopolis.com/accessibility-statement",
+          "reusedFromCache": true
+        },
+        {
+          "sourceUrl": "https://static.parastorage.com/client/pfavico.ico",
+          "localPath": "images/home/pfavico.ico",
+          "sourceType": "link:icon",
+          "selectorHint": "icon",
+          "alt": "",
+          "roleHint": "logo_or_icon",
+          "mimeType": "image/vnd.microsoft.icon",
+          "width": 16,
+          "height": 16,
+          "sizeBytes": 1150,
+          "sha1": "292d9aeb457ab7fedbad452854332aeff267a78e",
+          "qualityFlags": [
+            "low_resolution"
+          ],
+          "foundOnPage": "https://www.auraodontologiaflorianopolis.com/accessibility-statement",
+          "reusedFromCache": true
+        }
+      ],
+      "discoveredInternalLinks": [
+        "https://www.auraodontologiaflorianopolis.com/",
+        "https://www.auraodontologiaflorianopolis.com/accessibility-statement",
+        "https://www.auraodontologiaflorianopolis.com/copy-of-dutch-refund-policy",
+        "https://www.auraodontologiaflorianopolis.com/copy-of-dutch-terms-conditions",
+        "https://www.auraodontologiaflorianopolis.com/portuguese-privacy-policy"
+      ]
+    },
+    {
+      "url": "https://www.auraodontologiaflorianopolis.com/copy-of-dutch-terms-conditions",
+      "slug": "copy-of-dutch-terms-conditions",
+      "title": "Termos e Condições | Aura Odontologia I 1",
+      "status": "ok",
+      "localHtmlPath": "pages/copy-of-dutch-terms-conditions.html",
+      "imageCount": 3,
+      "images": [
+        {
+          "sourceUrl": "https://static.wixstatic.com/media/11062b_55e4be1e75564866b6c28290f9a9d271~mv2.png/v1/fill/w_71,h_71,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/11062b_55e4be1e75564866b6c28290f9a9d271~mv2.png",
+          "localPath": "images/home/11062b_55e4be1e75564866b6c28290f9a9d271~mv2.png",
+          "sourceType": "img:src",
+          "selectorHint": "img#img_0_comp-ma9wtw33.YaS0jR.Tj01hh",
+          "alt": "Instagram",
+          "roleHint": "general",
+          "mimeType": "image/png",
+          "width": 71,
+          "height": 71,
+          "sizeBytes": 9615,
+          "sha1": "6b2b410aa461a4843c995f7bbc0b73a4deb24822",
+          "qualityFlags": [
+            "low_resolution",
+            "small_for_hero",
+            "possibly_overcompressed"
+          ],
+          "foundOnPage": "https://www.auraodontologiaflorianopolis.com/copy-of-dutch-terms-conditions",
+          "reusedFromCache": true
+        },
+        {
+          "sourceUrl": "https://static.wixstatic.com/media/4c4131_7eb0a14276ec4f27831532af0c47ca90~mv2.jpeg/v1/fill/w_123,h_184,al_c,q_80,usm_0.66_1.00_0.01,blur_2,enc_avif,quality_auto/4c4131_7eb0a14276ec4f27831532af0c47ca90~mv2.jpeg",
+          "localPath": "images/home/4c4131_7eb0a14276ec4f27831532af0c47ca90~mv2.jpeg",
+          "sourceType": "img:src",
+          "selectorHint": "img",
+          "alt": "IMG_3613.JPEG",
+          "roleHint": "general",
+          "mimeType": "image/jpeg",
+          "width": 123,
+          "height": 184,
+          "sizeBytes": 4815,
+          "sha1": "81e7bb39613cd5eadb67a3280869776990fcfa13",
+          "qualityFlags": [
+            "low_resolution",
+            "small_for_hero",
+            "possibly_overcompressed"
+          ],
+          "foundOnPage": "https://www.auraodontologiaflorianopolis.com/copy-of-dutch-terms-conditions",
+          "reusedFromCache": true
+        },
+        {
+          "sourceUrl": "https://static.parastorage.com/client/pfavico.ico",
+          "localPath": "images/home/pfavico.ico",
+          "sourceType": "link:icon",
+          "selectorHint": "icon",
+          "alt": "",
+          "roleHint": "logo_or_icon",
+          "mimeType": "image/vnd.microsoft.icon",
+          "width": 16,
+          "height": 16,
+          "sizeBytes": 1150,
+          "sha1": "292d9aeb457ab7fedbad452854332aeff267a78e",
+          "qualityFlags": [
+            "low_resolution"
+          ],
+          "foundOnPage": "https://www.auraodontologiaflorianopolis.com/copy-of-dutch-terms-conditions",
+          "reusedFromCache": true
+        }
+      ],
+      "discoveredInternalLinks": [
+        "https://www.auraodontologiaflorianopolis.com/",
+        "https://www.auraodontologiaflorianopolis.com/accessibility-statement",
+        "https://www.auraodontologiaflorianopolis.com/copy-of-dutch-refund-policy",
+        "https://www.auraodontologiaflorianopolis.com/copy-of-dutch-terms-conditions",
+        "https://www.auraodontologiaflorianopolis.com/portuguese-privacy-policy"
+      ]
+    },
+    {
+      "url": "https://www.auraodontologiaflorianopolis.com/copy-of-dutch-refund-policy",
+      "slug": "copy-of-dutch-refund-policy",
+      "title": "Política de Reembolso | Aura Odontologia I 1",
+      "status": "ok",
+      "localHtmlPath": "pages/copy-of-dutch-refund-policy.html",
+      "imageCount": 3,
+      "images": [
+        {
+          "sourceUrl": "https://static.wixstatic.com/media/11062b_55e4be1e75564866b6c28290f9a9d271~mv2.png/v1/fill/w_71,h_71,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/11062b_55e4be1e75564866b6c28290f9a9d271~mv2.png",
+          "localPath": "images/home/11062b_55e4be1e75564866b6c28290f9a9d271~mv2.png",
+          "sourceType": "img:src",
+          "selectorHint": "img#img_0_comp-ma9wtw33.YaS0jR.Tj01hh",
+          "alt": "Instagram",
+          "roleHint": "general",
+          "mimeType": "image/png",
+          "width": 71,
+          "height": 71,
+          "sizeBytes": 9615,
+          "sha1": "6b2b410aa461a4843c995f7bbc0b73a4deb24822",
+          "qualityFlags": [
+            "low_resolution",
+            "small_for_hero",
+            "possibly_overcompressed"
+          ],
+          "foundOnPage": "https://www.auraodontologiaflorianopolis.com/copy-of-dutch-refund-policy",
+          "reusedFromCache": true
+        },
+        {
+          "sourceUrl": "https://static.wixstatic.com/media/4c4131_7eb0a14276ec4f27831532af0c47ca90~mv2.jpeg/v1/fill/w_123,h_184,al_c,q_80,usm_0.66_1.00_0.01,blur_2,enc_avif,quality_auto/4c4131_7eb0a14276ec4f27831532af0c47ca90~mv2.jpeg",
+          "localPath": "images/home/4c4131_7eb0a14276ec4f27831532af0c47ca90~mv2.jpeg",
+          "sourceType": "img:src",
+          "selectorHint": "img",
+          "alt": "IMG_3613.JPEG",
+          "roleHint": "general",
+          "mimeType": "image/jpeg",
+          "width": 123,
+          "height": 184,
+          "sizeBytes": 4815,
+          "sha1": "81e7bb39613cd5eadb67a3280869776990fcfa13",
+          "qualityFlags": [
+            "low_resolution",
+            "small_for_hero",
+            "possibly_overcompressed"
+          ],
+          "foundOnPage": "https://www.auraodontologiaflorianopolis.com/copy-of-dutch-refund-policy",
+          "reusedFromCache": true
+        },
+        {
+          "sourceUrl": "https://static.parastorage.com/client/pfavico.ico",
+          "localPath": "images/home/pfavico.ico",
+          "sourceType": "link:icon",
+          "selectorHint": "icon",
+          "alt": "",
+          "roleHint": "logo_or_icon",
+          "mimeType": "image/vnd.microsoft.icon",
+          "width": 16,
+          "height": 16,
+          "sizeBytes": 1150,
+          "sha1": "292d9aeb457ab7fedbad452854332aeff267a78e",
+          "qualityFlags": [
+            "low_resolution"
+          ],
+          "foundOnPage": "https://www.auraodontologiaflorianopolis.com/copy-of-dutch-refund-policy",
+          "reusedFromCache": true
+        }
+      ],
+      "discoveredInternalLinks": [
+        "https://www.auraodontologiaflorianopolis.com/",
+        "https://www.auraodontologiaflorianopolis.com/accessibility-statement",
+        "https://www.auraodontologiaflorianopolis.com/copy-of-dutch-refund-policy",
+        "https://www.auraodontologiaflorianopolis.com/copy-of-dutch-terms-conditions",
+        "https://www.auraodontologiaflorianopolis.com/portuguese-privacy-policy"
+      ]
+    },
+    {
+      "url": "https://www.auraodontologiaflorianopolis.com/portuguese-privacy-policy",
+      "slug": "portuguese-privacy-policy",
+      "title": "Política de Privacidade | Aura Odontologia I 1",
+      "status": "ok",
+      "localHtmlPath": "pages/portuguese-privacy-policy.html",
+      "imageCount": 3,
+      "images": [
+        {
+          "sourceUrl": "https://static.wixstatic.com/media/11062b_55e4be1e75564866b6c28290f9a9d271~mv2.png/v1/fill/w_71,h_71,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/11062b_55e4be1e75564866b6c28290f9a9d271~mv2.png",
+          "localPath": "images/home/11062b_55e4be1e75564866b6c28290f9a9d271~mv2.png",
+          "sourceType": "img:src",
+          "selectorHint": "img#img_0_comp-ma9wtw33.YaS0jR.Tj01hh",
+          "alt": "Instagram",
+          "roleHint": "general",
+          "mimeType": "image/png",
+          "width": 71,
+          "height": 71,
+          "sizeBytes": 9615,
+          "sha1": "6b2b410aa461a4843c995f7bbc0b73a4deb24822",
+          "qualityFlags": [
+            "low_resolution",
+            "small_for_hero",
+            "possibly_overcompressed"
+          ],
+          "foundOnPage": "https://www.auraodontologiaflorianopolis.com/portuguese-privacy-policy",
+          "reusedFromCache": true
+        },
+        {
+          "sourceUrl": "https://static.wixstatic.com/media/4c4131_7eb0a14276ec4f27831532af0c47ca90~mv2.jpeg/v1/fill/w_123,h_184,al_c,q_80,usm_0.66_1.00_0.01,blur_2,enc_avif,quality_auto/4c4131_7eb0a14276ec4f27831532af0c47ca90~mv2.jpeg",
+          "localPath": "images/home/4c4131_7eb0a14276ec4f27831532af0c47ca90~mv2.jpeg",
+          "sourceType": "img:src",
+          "selectorHint": "img",
+          "alt": "IMG_3613.JPEG",
+          "roleHint": "general",
+          "mimeType": "image/jpeg",
+          "width": 123,
+          "height": 184,
+          "sizeBytes": 4815,
+          "sha1": "81e7bb39613cd5eadb67a3280869776990fcfa13",
+          "qualityFlags": [
+            "low_resolution",
+            "small_for_hero",
+            "possibly_overcompressed"
+          ],
+          "foundOnPage": "https://www.auraodontologiaflorianopolis.com/portuguese-privacy-policy",
+          "reusedFromCache": true
+        },
+        {
+          "sourceUrl": "https://static.parastorage.com/client/pfavico.ico",
+          "localPath": "images/home/pfavico.ico",
+          "sourceType": "link:icon",
+          "selectorHint": "icon",
+          "alt": "",
+          "roleHint": "logo_or_icon",
+          "mimeType": "image/vnd.microsoft.icon",
+          "width": 16,
+          "height": 16,
+          "sizeBytes": 1150,
+          "sha1": "292d9aeb457ab7fedbad452854332aeff267a78e",
+          "qualityFlags": [
+            "low_resolution"
+          ],
+          "foundOnPage": "https://www.auraodontologiaflorianopolis.com/portuguese-privacy-policy",
+          "reusedFromCache": true
+        }
+      ],
+      "discoveredInternalLinks": [
+        "https://www.auraodontologiaflorianopolis.com/",
+        "https://www.auraodontologiaflorianopolis.com/accessibility-statement",
+        "https://www.auraodontologiaflorianopolis.com/copy-of-dutch-refund-policy",
+        "https://www.auraodontologiaflorianopolis.com/copy-of-dutch-terms-conditions",
+        "https://www.auraodontologiaflorianopolis.com/portuguese-privacy-policy"
+      ]
+    }
+  ],
+  "assets": [
+    {
+      "sourceUrl": "https://static.wixstatic.com/media/4c4131_66c2c585bb294e9eaa6265ffda0ab202~mv2.jpg/v1/fill/w_147,h_98,al_c,q_80,usm_0.66_1.00_0.01,blur_2,enc_avif,quality_auto/4c4131_66c2c585bb294e9eaa6265ffda0ab202~mv2.jpg",
+      "localPath": "images/home/4c4131_66c2c585bb294e9eaa6265ffda0ab202~mv2.jpg",
+      "sourceType": "img:src",
+      "selectorHint": "img",
+      "alt": "MCF_2785.JPG",
+      "roleHint": "general",
+      "mimeType": "image/jpeg",
+      "width": 147,
+      "height": 98,
+      "sizeBytes": 2918,
+      "sha1": "93ec05d8aa544180284e48f3a0c8fbf4ced1a922",
+      "qualityFlags": [
+        "low_resolution",
+        "small_for_hero",
+        "possibly_overcompressed"
+      ],
+      "foundOnPage": "https://www.auraodontologiaflorianopolis.com/"
+    },
+    {
+      "sourceUrl": "https://static.wixstatic.com/media/4c4131_6ad07df1df4d41b3a5e0c950000f7e29~mv2.jpeg/v1/crop/x_0,y_309,w_2592,h_2301/fill/w_519,h_461,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/IMG_3644_JPEG.jpeg",
+      "localPath": "images/home/IMG_3644_JPEG.jpeg",
+      "sourceType": "img:src",
+      "selectorHint": "img#img_comp-maq10mt6.BI8PVQ.Tj01hh",
+      "alt": "IMG_3644.JPEG",
+      "roleHint": "general",
+      "mimeType": "image/jpeg",
+      "width": 519,
+      "height": 461,
+      "sizeBytes": 65205,
+      "sha1": "a7beb7b76c3fb5fdd548869c7de8abb13ab9b339",
+      "qualityFlags": [
+        "small_for_hero"
+      ],
+      "foundOnPage": "https://www.auraodontologiaflorianopolis.com/"
+    },
+    {
+      "sourceUrl": "https://static.wixstatic.com/media/4c4131_6ef64849c07444a293fd8de10250d0f4~mv2.jpg/v1/fit/w_480,h_360,q_90,enc_avif,quality_auto/4c4131_6ef64849c07444a293fd8de10250d0f4~mv2.jpg",
+      "localPath": "images/home/4c4131_6ef64849c07444a293fd8de10250d0f4~mv2.jpg",
+      "sourceType": "img:src",
+      "selectorHint": "img#d39915d2-cc4a-4bf5-b92e-99acd538abd2.gallery-item-visible.gallery-item.gallery-item-preloaded",
+      "alt": "",
+      "roleHint": "gallery_or_product",
+      "mimeType": "image/jpeg",
+      "width": 392,
+      "height": 360,
+      "sizeBytes": 29905,
+      "sha1": "8c5f2f308598c216a22e0c24be23b5a3c3b40144",
+      "qualityFlags": [
+        "low_resolution",
+        "small_for_hero"
+      ],
+      "foundOnPage": "https://www.auraodontologiaflorianopolis.com/"
+    },
+    {
+      "sourceUrl": "https://static.wixstatic.com/media/4c4131_9e599c212b4944e78663a23ceb8d806b~mv2.jpg/v1/fit/w_480,h_360,q_90,enc_avif,quality_auto/4c4131_9e599c212b4944e78663a23ceb8d806b~mv2.jpg",
+      "localPath": "images/home/4c4131_9e599c212b4944e78663a23ceb8d806b~mv2.jpg",
+      "sourceType": "img:src",
+      "selectorHint": "img#d480ce2c-eb8b-4cac-90e7-0c846ab70be5.gallery-item-visible.gallery-item.gallery-item-preloaded",
+      "alt": "",
+      "roleHint": "gallery_or_product",
+      "mimeType": "image/jpeg",
+      "width": 480,
+      "height": 320,
+      "sizeBytes": 29656,
+      "sha1": "db8c328e41b977c10fc05e913357eeeef7934cad",
+      "qualityFlags": [
+        "low_resolution",
+        "small_for_hero"
+      ],
+      "foundOnPage": "https://www.auraodontologiaflorianopolis.com/"
+    },
+    {
+      "sourceUrl": "https://static.wixstatic.com/media/4c4131_3672a5ed54614403b7c74df3bfc09af1~mv2.jpg/v1/fill/w_480,h_360,fp_0.47_0.3,q_90,enc_avif,quality_auto/4c4131_3672a5ed54614403b7c74df3bfc09af1~mv2.jpg",
+      "localPath": "images/home/4c4131_3672a5ed54614403b7c74df3bfc09af1~mv2.jpg",
+      "sourceType": "img:src",
+      "selectorHint": "img#6ea138d2-3b10-424d-9ea3-dc2f73e0da42.gallery-item-visible.gallery-item.gallery-item-preloaded",
+      "alt": "",
+      "roleHint": "gallery_or_product",
+      "mimeType": "image/jpeg",
+      "width": 480,
+      "height": 360,
+      "sizeBytes": 30616,
+      "sha1": "dd2f7efc3c67f6b19643f181829e3a5a4f93cccf",
+      "qualityFlags": [
+        "low_resolution",
+        "small_for_hero"
+      ],
+      "foundOnPage": "https://www.auraodontologiaflorianopolis.com/"
+    },
+    {
+      "sourceUrl": "https://static.wixstatic.com/media/4c4131_497a23ab9d3845c080c82bbb64156fbf~mv2.jpg/v1/fit/w_480,h_360,q_90,enc_avif,quality_auto/4c4131_497a23ab9d3845c080c82bbb64156fbf~mv2.jpg",
+      "localPath": "images/home/4c4131_497a23ab9d3845c080c82bbb64156fbf~mv2.jpg",
+      "sourceType": "img:src",
+      "selectorHint": "img#820fda47-a984-4b90-a40a-d5d7cf44282e.gallery-item-visible.gallery-item.gallery-item-preloaded",
+      "alt": "",
+      "roleHint": "gallery_or_product",
+      "mimeType": "image/jpeg",
+      "width": 480,
+      "height": 320,
+      "sizeBytes": 27178,
+      "sha1": "89607a752c0c4bcd28266a5cf0c5c8886fea5433",
+      "qualityFlags": [
+        "low_resolution",
+        "small_for_hero"
+      ],
+      "foundOnPage": "https://www.auraodontologiaflorianopolis.com/"
+    },
+    {
+      "sourceUrl": "https://static.wixstatic.com/media/4c4131_f7a344dbc5584426a3407a49a456cd3f~mv2.jpg/v1/fit/w_480,h_360,q_90,enc_avif,quality_auto/4c4131_f7a344dbc5584426a3407a49a456cd3f~mv2.jpg",
+      "localPath": "images/home/4c4131_f7a344dbc5584426a3407a49a456cd3f~mv2.jpg",
+      "sourceType": "img:src",
+      "selectorHint": "img#97adb00b-ec84-41c2-9679-7e6a826d73c2.gallery-item-visible.gallery-item.gallery-item-preloaded",
+      "alt": "",
+      "roleHint": "gallery_or_product",
+      "mimeType": "image/jpeg",
+      "width": 480,
+      "height": 320,
+      "sizeBytes": 36774,
+      "sha1": "79263bef671e43a966f2f7df0fae3adcade8fae2",
+      "qualityFlags": [
+        "low_resolution",
+        "small_for_hero"
+      ],
+      "foundOnPage": "https://www.auraodontologiaflorianopolis.com/"
+    },
+    {
+      "sourceUrl": "https://static.wixstatic.com/media/4c4131_7ddaf18f84be4e38b240e298fb3a0d9c~mv2.jpg/v1/fit/w_480,h_360,q_90,enc_avif,quality_auto/4c4131_7ddaf18f84be4e38b240e298fb3a0d9c~mv2.jpg",
+      "localPath": "images/home/4c4131_7ddaf18f84be4e38b240e298fb3a0d9c~mv2.jpg",
+      "sourceType": "img:src",
+      "selectorHint": "img#9ff6d51c-fb84-43fc-ab32-5809f5873ec6.gallery-item-visible.gallery-item.gallery-item-preloaded",
+      "alt": "",
+      "roleHint": "gallery_or_product",
+      "mimeType": "image/jpeg",
+      "width": 480,
+      "height": 320,
+      "sizeBytes": 20888,
+      "sha1": "c8b78f9c0bd3fde2c1e264a3ba62327eabf523a8",
+      "qualityFlags": [
+        "low_resolution",
+        "small_for_hero"
+      ],
+      "foundOnPage": "https://www.auraodontologiaflorianopolis.com/"
+    },
+    {
+      "sourceUrl": "https://static.wixstatic.com/media/4c4131_b415817b3db349ac8801bfafcb0dabea~mv2.jpg/v1/fit/w_480,h_360,q_90,enc_avif,quality_auto/4c4131_b415817b3db349ac8801bfafcb0dabea~mv2.jpg",
+      "localPath": "images/home/4c4131_b415817b3db349ac8801bfafcb0dabea~mv2.jpg",
+      "sourceType": "img:src",
+      "selectorHint": "img#4503a958-6dd9-4d73-8a8a-1bfccfa16437.gallery-item-visible.gallery-item.gallery-item-preloaded",
+      "alt": "",
+      "roleHint": "gallery_or_product",
+      "mimeType": "image/jpeg",
+      "width": 480,
+      "height": 320,
+      "sizeBytes": 25957,
+      "sha1": "d07f9b6dbf8dd788d75a261e1466a7f7b397801c",
+      "qualityFlags": [
+        "low_resolution",
+        "small_for_hero"
+      ],
+      "foundOnPage": "https://www.auraodontologiaflorianopolis.com/"
+    },
+    {
+      "sourceUrl": "https://static.wixstatic.com/media/4c4131_7b3a7a15bfc947dba44f76400bbd2b3c~mv2.jpg/v1/fit/w_480,h_360,q_90,enc_avif,quality_auto/4c4131_7b3a7a15bfc947dba44f76400bbd2b3c~mv2.jpg",
+      "localPath": "images/home/4c4131_7b3a7a15bfc947dba44f76400bbd2b3c~mv2.jpg",
+      "sourceType": "img:src",
+      "selectorHint": "img#777646f8-b45e-421b-8f98-59ddf5c37eef.gallery-item-visible.gallery-item.gallery-item-preloaded",
+      "alt": "",
+      "roleHint": "gallery_or_product",
+      "mimeType": "image/jpeg",
+      "width": 480,
+      "height": 320,
+      "sizeBytes": 37253,
+      "sha1": "aa3053410137d8051da9cb3c1880f1d2685456e1",
+      "qualityFlags": [
+        "low_resolution",
+        "small_for_hero"
+      ],
+      "foundOnPage": "https://www.auraodontologiaflorianopolis.com/"
+    },
+    {
+      "sourceUrl": "https://static.wixstatic.com/media/4c4131_141e65ed5b6a4138a2641a14b4f16650~mv2.jpg/v1/fill/w_480,h_360,fp_0.43_0.71,q_90,enc_avif,quality_auto/4c4131_141e65ed5b6a4138a2641a14b4f16650~mv2.jpg",
+      "localPath": "images/home/4c4131_141e65ed5b6a4138a2641a14b4f16650~mv2.jpg",
+      "sourceType": "img:src",
+      "selectorHint": "img#58305d87-810d-49e9-a2f4-0c6a8c158cc0.gallery-item-visible.gallery-item.gallery-item-preloaded",
+      "alt": "",
+      "roleHint": "gallery_or_product",
+      "mimeType": "image/jpeg",
+      "width": 480,
+      "height": 360,
+      "sizeBytes": 24850,
+      "sha1": "8544abdd18cd99ebf4a3763cc8dcecbc8420352e",
+      "qualityFlags": [
+        "low_resolution",
+        "small_for_hero"
+      ],
+      "foundOnPage": "https://www.auraodontologiaflorianopolis.com/"
+    },
+    {
+      "sourceUrl": "https://static.wixstatic.com/media/4c4131_45d4a1cd56bd43fbaf1f5e7325893899~mv2.jpg/v1/fit/w_480,h_360,q_90,enc_avif,quality_auto/4c4131_45d4a1cd56bd43fbaf1f5e7325893899~mv2.jpg",
+      "localPath": "images/home/4c4131_45d4a1cd56bd43fbaf1f5e7325893899~mv2.jpg",
+      "sourceType": "img:src",
+      "selectorHint": "img#cf2233cd-c4e1-474b-87bc-f26cb3b3ade4.gallery-item-visible.gallery-item.gallery-item-preloaded",
+      "alt": "",
+      "roleHint": "gallery_or_product",
+      "mimeType": "image/jpeg",
+      "width": 480,
+      "height": 320,
+      "sizeBytes": 42092,
+      "sha1": "f550c8099efd09b92d26353645b52d92c7ef21ec",
+      "qualityFlags": [
+        "low_resolution",
+        "small_for_hero"
+      ],
+      "foundOnPage": "https://www.auraodontologiaflorianopolis.com/"
+    },
+    {
+      "sourceUrl": "https://static.wixstatic.com/media/4c4131_452989bfb2f4448c9d390c7c69ec2d9a~mv2.jpg/v1/fill/w_480,h_360,fp_0.36_0.5,q_90,enc_avif,quality_auto/4c4131_452989bfb2f4448c9d390c7c69ec2d9a~mv2.jpg",
+      "localPath": "images/home/4c4131_452989bfb2f4448c9d390c7c69ec2d9a~mv2.jpg",
+      "sourceType": "img:src",
+      "selectorHint": "img#f85407cb-4dca-4859-b9e7-1184287525ff.gallery-item-visible.gallery-item.gallery-item-preloaded",
+      "alt": "",
+      "roleHint": "gallery_or_product",
+      "mimeType": "image/jpeg",
+      "width": 480,
+      "height": 360,
+      "sizeBytes": 27975,
+      "sha1": "5762869611743fe7b394669dbfe1e2f424d703c9",
+      "qualityFlags": [
+        "low_resolution",
+        "small_for_hero"
+      ],
+      "foundOnPage": "https://www.auraodontologiaflorianopolis.com/"
+    },
+    {
+      "sourceUrl": "https://static.wixstatic.com/media/4c4131_ed2bdf88430d48d9a23bcd05853ff5b2~mv2.jpg/v1/fill/w_480,h_360,fp_0.71_0.41,q_90,enc_avif,quality_auto/4c4131_ed2bdf88430d48d9a23bcd05853ff5b2~mv2.jpg",
+      "localPath": "images/home/4c4131_ed2bdf88430d48d9a23bcd05853ff5b2~mv2.jpg",
+      "sourceType": "img:src",
+      "selectorHint": "img#898e2bd8-be82-4106-a838-f38d12afd497.gallery-item-visible.gallery-item.gallery-item-preloaded",
+      "alt": "",
+      "roleHint": "gallery_or_product",
+      "mimeType": "image/jpeg",
+      "width": 480,
+      "height": 360,
+      "sizeBytes": 25959,
+      "sha1": "c0ed0af971de60dbc6344b5b84ef5ec497a02d95",
+      "qualityFlags": [
+        "low_resolution",
+        "small_for_hero"
+      ],
+      "foundOnPage": "https://www.auraodontologiaflorianopolis.com/"
+    },
+    {
+      "sourceUrl": "https://static.wixstatic.com/media/4c4131_e351f825dacc417186f04ccc70af910b~mv2.jpeg/v1/fill/w_185,h_185,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/IMG_3619_JPEG.jpeg",
+      "localPath": "images/home/IMG_3619_JPEG.jpeg",
+      "sourceType": "img:src",
+      "selectorHint": "img#img_comp-ma9wtwhy.BI8PVQ.Tj01hh",
+      "alt": "IMG_3619.JPEG",
+      "roleHint": "general",
+      "mimeType": "image/jpeg",
+      "width": 185,
+      "height": 185,
+      "sizeBytes": 10098,
+      "sha1": "f1942a6829c4224b93f9757d703e7425105056d1",
+      "qualityFlags": [
+        "low_resolution",
+        "small_for_hero",
+        "possibly_overcompressed"
+      ],
+      "foundOnPage": "https://www.auraodontologiaflorianopolis.com/"
+    },
+    {
+      "sourceUrl": "https://static.wixstatic.com/media/4c4131_6776acffd95943a480a9f76bfb73e960~mv2.jpeg/v1/fill/w_185,h_185,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/IMG_3640_JPEG.jpeg",
+      "localPath": "images/home/IMG_3640_JPEG.jpeg",
+      "sourceType": "img:src",
+      "selectorHint": "img#img_comp-ma9wtwgj.BI8PVQ.Tj01hh",
+      "alt": "IMG_3640.JPEG",
+      "roleHint": "general",
+      "mimeType": "image/jpeg",
+      "width": 185,
+      "height": 185,
+      "sizeBytes": 10766,
+      "sha1": "e2ddb8f2752fb4f52dfe2aace6b2a6bc3ad8fc0a",
+      "qualityFlags": [
+        "low_resolution",
+        "small_for_hero",
+        "possibly_overcompressed"
+      ],
+      "foundOnPage": "https://www.auraodontologiaflorianopolis.com/"
+    },
+    {
+      "sourceUrl": "https://static.wixstatic.com/media/4c4131_3ce4a84e1b3841789d042b8de84db6d5~mv2.jpg/v1/fill/w_123,h_88,al_c,q_80,usm_0.66_1.00_0.01,blur_2,enc_avif,quality_auto/4c4131_3ce4a84e1b3841789d042b8de84db6d5~mv2.jpg",
+      "localPath": "images/home/4c4131_3ce4a84e1b3841789d042b8de84db6d5~mv2.jpg",
+      "sourceType": "img:src",
+      "selectorHint": "img",
+      "alt": "imgs-galeria-gobotower-01.jpg",
+      "roleHint": "gallery_or_product",
+      "mimeType": "image/jpeg",
+      "width": 123,
+      "height": 88,
+      "sizeBytes": 2611,
+      "sha1": "0a27ba54810e07fcec15683d74c46116daeda38f",
+      "qualityFlags": [
+        "low_resolution",
+        "small_for_hero",
+        "possibly_overcompressed"
+      ],
+      "foundOnPage": "https://www.auraodontologiaflorianopolis.com/"
+    },
+    {
+      "sourceUrl": "https://static.wixstatic.com/media/11062b_4241ee73561f4180ac4a3fef4e42f9d5~mv2.png/v1/fill/w_124,h_235,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/11062b_4241ee73561f4180ac4a3fef4e42f9d5~mv2.png",
+      "localPath": "images/home/11062b_4241ee73561f4180ac4a3fef4e42f9d5~mv2.png",
+      "sourceType": "img:src",
+      "selectorHint": "img#img_comp-mapgxekm.BI8PVQ.Tj01hh",
+      "alt": "",
+      "roleHint": "general",
+      "mimeType": "image/png",
+      "width": 124,
+      "height": 235,
+      "sizeBytes": 13059,
+      "sha1": "17828ef5f0b3c8afa1d460b28c26ff42aca5b2d2",
+      "qualityFlags": [
+        "low_resolution",
+        "small_for_hero",
+        "possibly_overcompressed"
+      ],
+      "foundOnPage": "https://www.auraodontologiaflorianopolis.com/"
+    },
+    {
+      "sourceUrl": "https://static.wixstatic.com/media/4c4131_b6402f09205e41d18d53d599754f9a8f~mv2.jpg/v1/fill/w_377,h_251,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/4c4131_b6402f09205e41d18d53d599754f9a8f~mv2.jpg",
+      "localPath": "images/home/4c4131_b6402f09205e41d18d53d599754f9a8f~mv2.jpg",
+      "sourceType": "img:src",
+      "selectorHint": "img#img_comp-maph7kbb.BI8PVQ.Tj01hh",
+      "alt": "",
+      "roleHint": "general",
+      "mimeType": "image/jpeg",
+      "width": 377,
+      "height": 251,
+      "sizeBytes": 16464,
+      "sha1": "e21033f19d666d7027be051895d1463d7c8225a3",
+      "qualityFlags": [
+        "low_resolution",
+        "small_for_hero"
+      ],
+      "foundOnPage": "https://www.auraodontologiaflorianopolis.com/"
+    },
+    {
+      "sourceUrl": "https://static.wixstatic.com/media/4c4131_42aec306438344ea8fe83f0d7f4c94a0~mv2.jpeg/v1/fill/w_377,h_251,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/4c4131_42aec306438344ea8fe83f0d7f4c94a0~mv2.jpeg",
+      "localPath": "images/home/4c4131_42aec306438344ea8fe83f0d7f4c94a0~mv2.jpeg",
+      "sourceType": "img:src",
+      "selectorHint": "img#img_comp-maph5oqz.BI8PVQ.Tj01hh",
+      "alt": "",
+      "roleHint": "general",
+      "mimeType": "image/jpeg",
+      "width": 377,
+      "height": 251,
+      "sizeBytes": 16831,
+      "sha1": "348490843814c26982eba292625805b9fa55140d",
+      "qualityFlags": [
+        "low_resolution",
+        "small_for_hero"
+      ],
+      "foundOnPage": "https://www.auraodontologiaflorianopolis.com/"
+    },
+    {
+      "sourceUrl": "https://static.wixstatic.com/media/4c4131_b4a7c3bd67a14e7cad598dc3d4ea0641~mv2.jpg/v1/fill/w_377,h_251,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/4c4131_b4a7c3bd67a14e7cad598dc3d4ea0641~mv2.jpg",
+      "localPath": "images/home/4c4131_b4a7c3bd67a14e7cad598dc3d4ea0641~mv2.jpg",
+      "sourceType": "img:src",
+      "selectorHint": "img#img_comp-maph8t0j.BI8PVQ.Tj01hh",
+      "alt": "",
+      "roleHint": "general",
+      "mimeType": "image/jpeg",
+      "width": 377,
+      "height": 251,
+      "sizeBytes": 20416,
+      "sha1": "bbe4837e6153d68c061d19a654d0083e450795ad",
+      "qualityFlags": [
+        "low_resolution",
+        "small_for_hero"
+      ],
+      "foundOnPage": "https://www.auraodontologiaflorianopolis.com/"
+    },
+    {
+      "sourceUrl": "https://static.wixstatic.com/media/11062b_55e4be1e75564866b6c28290f9a9d271~mv2.png/v1/fill/w_71,h_71,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/11062b_55e4be1e75564866b6c28290f9a9d271~mv2.png",
+      "localPath": "images/home/11062b_55e4be1e75564866b6c28290f9a9d271~mv2.png",
+      "sourceType": "img:src",
+      "selectorHint": "img#img_0_comp-ma9wtw33.YaS0jR.Tj01hh",
+      "alt": "Instagram",
+      "roleHint": "general",
+      "mimeType": "image/png",
+      "width": 71,
+      "height": 71,
+      "sizeBytes": 9615,
+      "sha1": "6b2b410aa461a4843c995f7bbc0b73a4deb24822",
+      "qualityFlags": [
+        "low_resolution",
+        "small_for_hero",
+        "possibly_overcompressed"
+      ],
+      "foundOnPage": "https://www.auraodontologiaflorianopolis.com/"
+    },
+    {
+      "sourceUrl": "https://static.wixstatic.com/media/4c4131_7eb0a14276ec4f27831532af0c47ca90~mv2.jpeg/v1/fill/w_123,h_184,al_c,q_80,usm_0.66_1.00_0.01,blur_2,enc_avif,quality_auto/4c4131_7eb0a14276ec4f27831532af0c47ca90~mv2.jpeg",
+      "localPath": "images/home/4c4131_7eb0a14276ec4f27831532af0c47ca90~mv2.jpeg",
+      "sourceType": "img:src",
+      "selectorHint": "img",
+      "alt": "IMG_3613.JPEG",
+      "roleHint": "general",
+      "mimeType": "image/jpeg",
+      "width": 123,
+      "height": 184,
+      "sizeBytes": 4815,
+      "sha1": "81e7bb39613cd5eadb67a3280869776990fcfa13",
+      "qualityFlags": [
+        "low_resolution",
+        "small_for_hero",
+        "possibly_overcompressed"
+      ],
+      "foundOnPage": "https://www.auraodontologiaflorianopolis.com/"
+    },
+    {
+      "sourceUrl": "https://static.parastorage.com/client/pfavico.ico",
+      "localPath": "images/home/pfavico.ico",
+      "sourceType": "link:icon",
+      "selectorHint": "icon",
+      "alt": "",
+      "roleHint": "logo_or_icon",
+      "mimeType": "image/vnd.microsoft.icon",
+      "width": 16,
+      "height": 16,
+      "sizeBytes": 1150,
+      "sha1": "292d9aeb457ab7fedbad452854332aeff267a78e",
+      "qualityFlags": [
+        "low_resolution"
+      ],
+      "foundOnPage": "https://www.auraodontologiaflorianopolis.com/"
+    }
+  ],
+  "errors": [
+    {
+      "url": "https://www.auraodontologiaflorianopolis.com/quality_auto/IMG_3644_JPEG.jpeg",
+      "error": "404 Client Error: Not Found for url: https://www.auraodontologiaflorianopolis.com/quality_auto/IMG_3644_JPEG.jpeg"
+    },
+    {
+      "url": "https://www.auraodontologiaflorianopolis.com/quality_auto/IMG_3619_JPEG.jpeg",
+      "error": "404 Client Error: Not Found for url: https://www.auraodontologiaflorianopolis.com/quality_auto/IMG_3619_JPEG.jpeg"
+    },
+    {
+      "url": "https://www.auraodontologiaflorianopolis.com/quality_auto/IMG_3640_JPEG.jpeg",
+      "error": "404 Client Error: Not Found for url: https://www.auraodontologiaflorianopolis.com/quality_auto/IMG_3640_JPEG.jpeg"
+    },
+    {
+      "url": "https://www.auraodontologiaflorianopolis.com/quality_auto/11062b_4241ee73561f4180ac4a3fef4e42f9d5~mv2.png",
+      "error": "404 Client Error: Not Found for url: https://www.auraodontologiaflorianopolis.com/quality_auto/11062b_4241ee73561f4180ac4a3fef4e42f9d5~mv2.png"
+    },
+    {
+      "url": "https://www.auraodontologiaflorianopolis.com/quality_auto/4c4131_b6402f09205e41d18d53d599754f9a8f~mv2.jpg",
+      "error": "404 Client Error: Not Found for url: https://www.auraodontologiaflorianopolis.com/quality_auto/4c4131_b6402f09205e41d18d53d599754f9a8f~mv2.jpg"
+    },
+    {
+      "url": "https://www.auraodontologiaflorianopolis.com/quality_auto/4c4131_42aec306438344ea8fe83f0d7f4c94a0~mv2.jpeg",
+      "error": "404 Client Error: Not Found for url: https://www.auraodontologiaflorianopolis.com/quality_auto/4c4131_42aec306438344ea8fe83f0d7f4c94a0~mv2.jpeg"
+    },
+    {
+      "url": "https://www.auraodontologiaflorianopolis.com/quality_auto/4c4131_b4a7c3bd67a14e7cad598dc3d4ea0641~mv2.jpg",
+      "error": "404 Client Error: Not Found for url: https://www.auraodontologiaflorianopolis.com/quality_auto/4c4131_b4a7c3bd67a14e7cad598dc3d4ea0641~mv2.jpg"
+    },
+    {
+      "url": "https://www.auraodontologiaflorianopolis.com/quality_auto/11062b_55e4be1e75564866b6c28290f9a9d271~mv2.png",
+      "error": "404 Client Error: Not Found for url: https://www.auraodontologiaflorianopolis.com/quality_auto/11062b_55e4be1e75564866b6c28290f9a9d271~mv2.png"
+    },
+    {
+      "url": "https://www.auraodontologiaflorianopolis.com/quality_auto/4c4131_6ef64849c07444a293fd8de10250d0f4~mv2.jpg",
+      "error": "404 Client Error: Not Found for url: https://www.auraodontologiaflorianopolis.com/quality_auto/4c4131_6ef64849c07444a293fd8de10250d0f4~mv2.jpg"
+    },
+    {
+      "url": "https://www.auraodontologiaflorianopolis.com/quality_auto/4c4131_9e599c212b4944e78663a23ceb8d806b~mv2.jpg",
+      "error": "404 Client Error: Not Found for url: https://www.auraodontologiaflorianopolis.com/quality_auto/4c4131_9e599c212b4944e78663a23ceb8d806b~mv2.jpg"
+    },
+    {
+      "url": "https://www.auraodontologiaflorianopolis.com/quality_auto/4c4131_3672a5ed54614403b7c74df3bfc09af1~mv2.jpg",
+      "error": "404 Client Error: Not Found for url: https://www.auraodontologiaflorianopolis.com/quality_auto/4c4131_3672a5ed54614403b7c74df3bfc09af1~mv2.jpg"
+    },
+    {
+      "url": "https://www.auraodontologiaflorianopolis.com/quality_auto/4c4131_497a23ab9d3845c080c82bbb64156fbf~mv2.jpg",
+      "error": "404 Client Error: Not Found for url: https://www.auraodontologiaflorianopolis.com/quality_auto/4c4131_497a23ab9d3845c080c82bbb64156fbf~mv2.jpg"
+    },
+    {
+      "url": "https://www.auraodontologiaflorianopolis.com/quality_auto/4c4131_f7a344dbc5584426a3407a49a456cd3f~mv2.jpg",
+      "error": "404 Client Error: Not Found for url: https://www.auraodontologiaflorianopolis.com/quality_auto/4c4131_f7a344dbc5584426a3407a49a456cd3f~mv2.jpg"
+    },
+    {
+      "url": "https://www.auraodontologiaflorianopolis.com/quality_auto/4c4131_7ddaf18f84be4e38b240e298fb3a0d9c~mv2.jpg",
+      "error": "404 Client Error: Not Found for url: https://www.auraodontologiaflorianopolis.com/quality_auto/4c4131_7ddaf18f84be4e38b240e298fb3a0d9c~mv2.jpg"
+    },
+    {
+      "url": "https://www.auraodontologiaflorianopolis.com/quality_auto/4c4131_b415817b3db349ac8801bfafcb0dabea~mv2.jpg",
+      "error": "404 Client Error: Not Found for url: https://www.auraodontologiaflorianopolis.com/quality_auto/4c4131_b415817b3db349ac8801bfafcb0dabea~mv2.jpg"
+    },
+    {
+      "url": "https://www.auraodontologiaflorianopolis.com/quality_auto/4c4131_7b3a7a15bfc947dba44f76400bbd2b3c~mv2.jpg",
+      "error": "404 Client Error: Not Found for url: https://www.auraodontologiaflorianopolis.com/quality_auto/4c4131_7b3a7a15bfc947dba44f76400bbd2b3c~mv2.jpg"
+    },
+    {
+      "url": "https://www.auraodontologiaflorianopolis.com/quality_auto/4c4131_141e65ed5b6a4138a2641a14b4f16650~mv2.jpg",
+      "error": "404 Client Error: Not Found for url: https://www.auraodontologiaflorianopolis.com/quality_auto/4c4131_141e65ed5b6a4138a2641a14b4f16650~mv2.jpg"
+    },
+    {
+      "url": "https://www.auraodontologiaflorianopolis.com/quality_auto/4c4131_45d4a1cd56bd43fbaf1f5e7325893899~mv2.jpg",
+      "error": "404 Client Error: Not Found for url: https://www.auraodontologiaflorianopolis.com/quality_auto/4c4131_45d4a1cd56bd43fbaf1f5e7325893899~mv2.jpg"
+    },
+    {
+      "url": "https://www.auraodontologiaflorianopolis.com/quality_auto/4c4131_452989bfb2f4448c9d390c7c69ec2d9a~mv2.jpg",
+      "error": "404 Client Error: Not Found for url: https://www.auraodontologiaflorianopolis.com/quality_auto/4c4131_452989bfb2f4448c9d390c7c69ec2d9a~mv2.jpg"
+    },
+    {
+      "url": "https://www.auraodontologiaflorianopolis.com/quality_auto/4c4131_ed2bdf88430d48d9a23bcd05853ff5b2~mv2.jpg",
+      "error": "404 Client Error: Not Found for url: https://www.auraodontologiaflorianopolis.com/quality_auto/4c4131_ed2bdf88430d48d9a23bcd05853ff5b2~mv2.jpg"
+    },
+    {
+      "url": "https://www.auraodontologiaflorianopolis.com/quality_auto/11062b_55e4be1e75564866b6c28290f9a9d271~mv2.png",
+      "error": "404 Client Error: Not Found for url: https://www.auraodontologiaflorianopolis.com/quality_auto/11062b_55e4be1e75564866b6c28290f9a9d271~mv2.png"
+    },
+    {
+      "url": "https://www.auraodontologiaflorianopolis.com/quality_auto/11062b_55e4be1e75564866b6c28290f9a9d271~mv2.png",
+      "error": "404 Client Error: Not Found for url: https://www.auraodontologiaflorianopolis.com/quality_auto/11062b_55e4be1e75564866b6c28290f9a9d271~mv2.png"
+    },
+    {
+      "url": "https://www.auraodontologiaflorianopolis.com/quality_auto/11062b_55e4be1e75564866b6c28290f9a9d271~mv2.png",
+      "error": "404 Client Error: Not Found for url: https://www.auraodontologiaflorianopolis.com/quality_auto/11062b_55e4be1e75564866b6c28290f9a9d271~mv2.png"
+    },
+    {
+      "url": "https://www.auraodontologiaflorianopolis.com/quality_auto/11062b_55e4be1e75564866b6c28290f9a9d271~mv2.png",
+      "error": "404 Client Error: Not Found for url: https://www.auraodontologiaflorianopolis.com/quality_auto/11062b_55e4be1e75564866b6c28290f9a9d271~mv2.png"
+    }
+  ]
+}

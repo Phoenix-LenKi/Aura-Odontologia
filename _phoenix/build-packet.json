@@ -1,0 +1,31 @@
+{
+  "jobId": "prep_aura_odontologia_integrada_mn15s92z",
+  "status": "ready",
+  "lead": {
+    "originalSiteUrl": "https://www.auraodontologiaflorianopolis.com/",
+    "leadName": "Aura Odontologia Integrada",
+    "niche": "Odontologia",
+    "cityState": "Florianópolis - SC",
+    "whatsapp": "(48) 99651-0548",
+    "observations": "Website com desalinhamento de elementos, botões desproporcionais, textos com fundo na mesma cor tornando leitura confusa."
+  },
+  "project": {
+    "projectSlug": "aura-odontologia-integrada",
+    "projectDir": "E:/APPS/Projeto-Phoenix/aura-odontologia-integrada",
+    "scrapeDir": "E:/APPS/Projeto-Phoenix/aura-odontologia-integrada/input/site-scrape"
+  },
+  "paths": {
+    "localImageArchiveDir": "E:/APPS/Projeto-Phoenix/aura-odontologia-integrada/input/site-scrape/images",
+    "imageManifestFile": "E:/APPS/Projeto-Phoenix/aura-odontologia-integrada/input/site-scrape/manifest.json",
+    "localHtmlArchiveDir": "E:/APPS/Projeto-Phoenix/aura-odontologia-integrada/input/site-scrape/pages"
+  },
+  "checks": {
+    "projectDirExists": true,
+    "imagesDirExists": true,
+    "pagesDirExists": true,
+    "manifestExists": true
+  },
+  "promptVars": "PREP_JOB_ID = prep_aura_odontologia_integrada_mn15s92z\nORIGINAL_SITE_URL = https://www.auraodontologiaflorianopolis.com/\nLEAD_NAME = Aura Odontologia Integrada\nNICHO = Odontologia\nCIDADE_ESTADO = Florianópolis - SC\nWHATSAPP_DESTINO = (48) 99651-0548\nOBSERVACOES_PHOENIX = Website com desalinhamento de elementos, botões desproporcionais, textos com fundo na mesma cor tornando leitura confusa.\nPROJECT_SLUG = aura-odontologia-integrada\nPROJECT_DIR = E:/APPS/Projeto-Phoenix/aura-odontologia-integrada",
+  "generatedAt": "2026-03-22T01:18:44-03:00",
+  "errorMessage": ""
+}
