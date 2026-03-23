@@ -10,7 +10,7 @@ export const content = {
   hero: {
     badge: "Odontologia",
     title: "Aura Odontologia Integrada",
-    subtitle: "Estamos comprometidos em fornecer atendimento de qualidade para toda a família. Marque sua consulta hoje mesmo!",
+    subtitle: "Cuidado odontológico completo e humanizado para todas as idades. Especialistas em Implantodontia e Odontopediatria. Agende sua avaliação.",
     primaryCta: "Fale no WhatsApp",
     secondaryCta: "Conheça a clínica",
     image: "/lead-assets/home/4c4131_3672a5ed54614403b7c74df3bfc09af1~mv2.jpg"
@@ -68,14 +68,14 @@ export const content = {
         role: "Cirurgiã-dentista | Especialista em Odontopediatria",
         cro: "CRO/SC 16794",
         education: "Cirurgia-dentista formada em Odontologia pela Universidade Federal de Santa Catarina. Especialista em Odontopediatria. Especialista em Saúde da Família.",
-        image: "/lead-assets/home/IMG_3619_JPEG.jpeg"
+        image: "/lead-assets/home/dra1.png"
       },
       {
         name: "Priscila Saquet",
         role: "Cirurgiã-dentista | Especialista em Implantodontia",
         cro: "CRO/SC 15821",
         education: "Cirurgiã-dentista formada em Odontologia pela Universidade Federal de Santa Catarina. Especialista em Implantodontia. Residência Integrada Multidisciplinar em Odontologia de Alta Complexidade (HU/UFSC).",
-        image: "/lead-assets/home/IMG_3640_JPEG.jpeg"
+        image: "/lead-assets/home/dra2.png"
       }
     ]
   },

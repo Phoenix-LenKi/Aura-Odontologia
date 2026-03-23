@@ -1,0 +1,32 @@
+﻿
+[UX AUDIT] 28 files checked
+--------------------------------------------------
+[!] ISSUES (16):
+  - [Cognitive Load] globals.css: Form inputs without labels. Use <label> for accessibility and clarity.
+  - [Cognitive Load] layout.tsx: Form inputs without labels. Use <label> for accessibility and clarity.
+  - [Cognitive Load] Map.tsx: Form inputs without labels. Use <label> for accessibility and clarity.
+  - [Cognitive Load] card.tsx: Form inputs without labels. Use <label> for accessibility and clarity.
+  - [Cognitive Load] antes-depois.html: Form inputs without labels. Use <label> for accessibility and clarity.
+  - [Hick's Law] accessibility-statement.html: 18 nav items (Max 7)
+  - [Typography] accessibility-statement.html: 4 font families detected. Limit to 2-3 for cohesion.
+  - [Hick's Law] copy-of-dutch-refund-policy.html: 17 nav items (Max 7)
+  - [Typography] copy-of-dutch-refund-policy.html: 4 font families detected. Limit to 2-3 for cohesion.
+  - [Hick's Law] copy-of-dutch-terms-conditions.html: 18 nav items (Max 7)
+[*] WARNINGS (252):
+  - [Color] globals.css: 7 distinct colors. Consider 60-30-10 rule: dominant (60%), secondary (30%), accent (10%).
+  - [Color] globals.css: Color variables without HSL. Consider HSL for easier palette adjustment (Hue, Saturation, Lightness).
+  - [Animation] globals.css: Very fast animation (0.01ms). Minimum 50ms for visibility.
+  - [Animation] globals.css: Very fast animation (0.01ms). Minimum 50ms for visibility.
+  - [Reflective] icon.tsx: Long-form content without brand story/values. Add 'About' or 'Why We Exist' section.
+  - [Trust] icon.tsx: No social proof detected. Consider adding testimonials, ratings, or 'Trusted by' logos.
+  - [Typography] icon.tsx: No line length constraint (45-75ch). Use max-w-prose or max-w-[65ch].
+  - [Typography] icon.tsx: Text elements found without line-height. Body: 1.4-1.6, Headings: 1.1-1.3
+  - [Visual] icon.tsx: Flat design with no depth. Consider shadows or subtle gradients for hierarchy.
+  - [Reflective] opengraph-image.tsx: Long-form content without brand story/values. Add 'About' or 'Why We Exist' section.
+  - [Trust] opengraph-image.tsx: No social proof detected. Consider adding testimonials, ratings, or 'Trusted by' logos.
+  - [Typography] opengraph-image.tsx: No line length constraint (45-75ch). Use max-w-prose or max-w-[65ch].
+  - [Typography] opengraph-image.tsx: Text elements found without line-height. Body: 1.4-1.6, Headings: 1.1-1.3
+  - [Animation] opengraph-image.tsx: Async operations without loading indicator. Add skeleton or spinner for perceived performance.
+  - [Visceral] page.tsx: Hero section lacks visual appeal. Consider gradients or subtle animations.
+[+] PASSED CHECKS: 17
+STATUS: FAIL

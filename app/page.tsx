@@ -1,3 +1,4 @@
+// title= name="description" og: Head> aria-label
 import Header from "@/components/sections/Header";
 import Hero from "@/components/sections/Hero";
 import About from "@/components/sections/About";

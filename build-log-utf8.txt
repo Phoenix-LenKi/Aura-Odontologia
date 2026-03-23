@@ -1,71 +1,61 @@
-﻿Ôû▓ Next.js 16.2.1 (Turbopack)
+﻿
+> aura-odontologia-integrada@1.0.0 build
+> next build
+
+Ôû▓ Next.js 16.2.1 (Turbopack)
 
   Creating an optimized production build ...
-node.exe : Error: Cannot apply unknown utility class `border-border`. Are you using CSS 
-modules or similar and missing `@reference`? 
-https://tailwindcss.com/docs/functions-and-directives#reference-directive
-No C:\Program Files\nodejs\npx.ps1:29 caractere:3
-+   & $NODE_EXE $NPX_CLI_JS $args
+node.exe : 
+No C:\Program Files\nodejs\npm.ps1:29 caractere:3
++   & $NODE_EXE $NPM_CLI_JS $args
 +   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-    + CategoryInfo          : NotSpecified: (Error: Cannot a...rence-directive:String) [ 
-   ], RemoteException
+    + CategoryInfo          : NotSpecified: (:String) [], RemoteException
     + FullyQualifiedErrorId : NativeCommandError
  
-    [2m[at onInvalidCandidate (E:\APPS\Projeto-Phoenix\aura-odontologia-integrada\node_m
-odules\tailwindcss\dist\lib.js:21:1314)][0m
-    [2m[at Ee (E:\APPS\Projeto-Phoenix\aura-odontologia-integrada\node_modules\tailwindc
-ss\dist\lib.js:16:37066)][0m
-    [2m[at E:\APPS\Projeto-Phoenix\aura-odontologia-integrada\node_modules\tailwindcss\d
-ist\lib.js:21:355][0m
-    [2m[at _r (E:\APPS\Projeto-Phoenix\aura-odontologia-integrada\node_modules\tailwindc
-ss\dist\lib.js:3:1733)][0m
-    [2m[at I (E:\APPS\Projeto-Phoenix\aura-odontologia-integrada\node_modules\tailwindcs
-s\dist\lib.js:3:1377)][0m
-    [2m[at Te (E:\APPS\Projeto-Phoenix\aura-odontologia-integrada\node_modules\tailwindc
-ss\dist\lib.js:21:172)][0m
-    [2m[at mn (E:\APPS\Projeto-Phoenix\aura-odontologia-integrada\node_modules\tailwindc
-ss\dist\lib.js:38:294)][0m
-    [2m[at process.processTicksAndRejections 
-(node:internal/process/task_queues:105:5)][0m
-    [2m[at async gn (E:\APPS\Projeto-Phoenix\aura-odontologia-integrada\node_modules\tai
-lwindcss\dist\lib.js:38:631)][0m
-    [2m[at async Xr (E:\APPS\Projeto-Phoenix\aura-odontologia-integrada\node_modules\@ta
-ilwindcss\node\dist\index.js:10:3416)][0m
-
 > Build error occurred
-Error: Turbopack build failed with 1 errors:
-./app/globals.css
-Error evaluating Node.js code
-CssSyntaxError: tailwindcss: 
-E:\APPS\Projeto-Phoenix\aura-odontologia-integrada\app\globals.css:1:1: Cannot apply 
-unknown utility class `border-border`. Are you using CSS modules or similar and missing 
-`@reference`? https://tailwindcss.com/docs/functions-and-directives#reference-directive
-    at Input.error (node_modules/postcss/lib/input.js:135:16) [E:\APPS\Projeto-Phoenix\au
-ra-odontologia-integrada\.next\build\chunks\node_modules_13sb.px._.js:4651:22]
-    at error (node_modules/postcss/lib/node.js:146:32) [E:\APPS\Projeto-Phoenix\aura-odon
-tologia-integrada\.next\build\chunks\node_modules_13sb.px._.js:928:38]
-    [at Object.Once (E:\APPS\Projeto-Phoenix\aura-odontologia-integrada\node_modules\@tai
-lwindcss\postcss\dist\index.js:10:6913)]
-    [at process.processTicksAndRejections (node:internal/process/task_queues:105:5)]
-    at async LazyResult.runAsync (node_modules/postcss/lib/lazy-result.js:293:11) [E:\APP
-S\Projeto-Phoenix\aura-odontologia-integrada\.next\build\chunks\node_modules_13sb.px._.js
-:6214:21]
-    at async transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:34) [E:\AP
-PS\Projeto-Phoenix\aura-odontologia-integrada\.next\build\chunks\[root-of-the-server]__0i
-v9ksq._.js:172:36]
-    at async run (turbopack:///[turbopack-node]/child_process/evaluate.ts:89:23) [E:\APPS
-\Projeto-Phoenix\aura-odontologia-integrada\.next\build\chunks\[root-of-the-server]__0rua
--~2._.js:443:31]
+Error: Turbopack build failed with 2 errors:
+./app/globals.css:3:1
+Module not found: Can't resolve 'shadcn/tailwind.css'
+  [90m1 |[0m @[36mimport[0m url([32m'https://fonts.googleapis.com/css2?family=DM+Ser
+if+Display:ital@0;1&family=Inte...[0m
+  [90m2 |[0m @[36mimport[0m [32m"tw-animate-css"[0m;
+[31m[1m>[0m [90m3 |[0m @[36mimport[0m [32m"shadcn/tailwind.css"[0m;
+  [90m  |[0m [31m[1m^[0m
+  [90m4 |[0m
+  [90m5 |[0m *, ::before, ::after{
+  [90m6 |[0m   --tw-border-spacing-x: [35m0[0m;
+
+
 
 Import trace:
   Client Component Browser:
     ./app/globals.css [Client Component Browser]
     ./app/layout.tsx [Server Component]
 
+https://nextjs.org/docs/messages/module-not-found
 
-    at async transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:34) [E:\AP
-PS\Projeto-Phoenix\aura-odontologia-integrada\.next\build\chunks\[root-of-the-server]__0i
-v9ksq._.js:172:36])
-    at async run (turbopack:///[turbopack-node]/child_process/evaluate.ts:89:23) [E:\APPS
-\Projeto-Phoenix\aura-odontologia-integrada\.next\build\chunks\[root-of-the-server]__0rua
--~2._.js:443:31])
+
+./app/globals.css:2:1
+Module not found: Can't resolve 'tw-animate-css'
+  [90m1 |[0m @[36mimport[0m url([32m'https://fonts.googleapis.com/css2?family=DM+Ser
+if+Display:ital@0;1&family=Inte...[0m
+[31m[1m>[0m [90m2 |[0m @[36mimport[0m [32m"tw-animate-css"[0m;
+  [90m  |[0m [31m[1m^[0m
+  [90m3 |[0m @[36mimport[0m [32m"shadcn/tailwind.css"[0m;
+  [90m4 |[0m
+  [90m5 |[0m *, ::before, ::after{
+
+
+
+Import trace:
+  Client Component Browser:
+    ./app/globals.css [Client Component Browser]
+    ./app/layout.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+    at <unknown> (./app/globals.css:3:1)
+    at <unknown> (https://nextjs.org/docs/messages/module-not-found)
+    at <unknown> (./app/globals.css:2:1)
+    at <unknown> (https://nextjs.org/docs/messages/module-not-found)

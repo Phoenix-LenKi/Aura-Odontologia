@@ -3,77 +3,66 @@
 import { content } from "@/lib/content";
 import { motion } from "framer-motion";
 
-const containerVariants = {
-  hidden: {},
-  visible: {
-    transition: { staggerChildren: 0.12 },
-  },
-};
-
-const cardVariants = {
-  hidden: { opacity: 0, y: 25 },
-  visible: {
-    opacity: 1,
-    y: 0,
-    transition: { duration: 0.6, type: "spring" as const, stiffness: 80 },
-  },
-};
-
 export default function Testimonials() {
   return (
-    <section id="depoimentos" className="bg-cream py-24 md:py-32">
-      <div className="max-w-7xl mx-auto px-6">
+    <section id="depoimentos" className="bg-white py-24 md:py-32 overflow-hidden">
+      <div className="max-w-7xl mx-auto px-6 relative">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true, margin: "-80px" }}
           transition={{ duration: 0.6 }}
-          className="text-center mb-16"
+          className="text-center mb-16 md:mb-24"
         >
           <p className="text-terracotta text-sm uppercase tracking-[0.2em] font-medium mb-4">
-            Depoimentos
+            O que dizem
           </p>
-          <h2 className="font-serif text-heading text-charcoal">
+          <h2 className="font-serif text-4xl md:text-5xl text-charcoal">
             {content.testimonials.title}
           </h2>
         </motion.div>
 
-        <motion.div
-          variants={containerVariants}
-          initial="hidden"
-          whileInView="visible"
-          viewport={{ once: true, margin: "-80px" }}
-          className="grid md:grid-cols-3 gap-8"
-        >
+        <div className="flex flex-col md:flex-row gap-6 md:gap-8 justify-center">
           {content.testimonials.items.map((testimonial, i) => (
             <motion.div
               key={i}
-              variants={cardVariants}
-              className="bg-white p-8 relative"
+              initial={{ opacity: 0, y: 40 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true, margin: "-80px" }}
+              transition={{ duration: 0.7, delay: i * 0.15, ease: [0.22, 1, 0.36, 1] }}
+              className={`bg-white p-10 md:p-12 relative flex-1 rounded-sm shadow-[0_4px_20px_-4px_rgba(0,0,0,0.05)] ${
+                i === 1 ? 'md:mt-12' : i === 2 ? 'md:mt-24' : ''
+              }`}
             >
-              {/* Quote mark */}
-              <span className="absolute top-4 left-6 text-terracotta/15 font-serif text-[80px] leading-none select-none">
+              {/* Large quote mark behind text */}
+              <span className="absolute -top-4 -left-2 text-charcoal/5 font-serif text-[120px] leading-none select-none pointer-events-none">
                 &ldquo;
               </span>
 
-              <p className="text-charcoal-light text-sm leading-relaxed relative z-10 mb-6 pt-8">
-                {testimonial.text}
-              </p>
+              <div className="relative z-10 flex flex-col h-full justify-between">
+                <p className="text-charcoal/80 text-lg leading-relaxed mb-10 font-light italic">
+                  "{testimonial.text}"
+                </p>
 
-              <div className="flex items-center gap-3">
-                <div className="w-10 h-10 rounded-full bg-terracotta/10 flex items-center justify-center">
-                  <span className="text-terracotta font-serif text-lg">
-                    {testimonial.name.charAt(0)}
-                  </span>
-                </div>
-                <div>
-                  <p className="text-charcoal font-medium text-sm">{testimonial.name}</p>
-                  <p className="text-charcoal-light text-xs">Paciente</p>
+                <div className="flex items-center gap-4 border-t border-charcoal/10 pt-6">
+                  <div className="w-12 h-12 rounded-full bg-cream border border-charcoal/5 flex items-center justify-center shrink-0">
+                    <span className="text-terracotta font-serif text-xl">
+                      {testimonial.name.charAt(0)}
+                    </span>
+                  </div>
+                  <div>
+                    <p className="text-charcoal font-medium text-base tracking-wide">
+                      {testimonial.name}
+                    </p>
+                    <p className="text-terracotta text-xs uppercase tracking-wider mt-1">
+                      Paciente
+                    </p>
+                  </div>
                 </div>
               </div>
             </motion.div>
           ))}
-        </motion.div>
+        </div>
       </div>
     </section>
   );

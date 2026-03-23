@@ -1,0 +1,35 @@
+﻿
+============================================================
+  SEO CHECKER - Search Engine Optimization Audit
+============================================================
+Project: E:\APPS\Projeto-Phoenix\aura-odontologia-integrada
+Time: 2026-03-23 00:44:39
+------------------------------------------------------------
+Found 10 page files to analyze
+
+============================================================
+SEO ANALYSIS RESULTS
+============================================================
+
+Issue Summary:
+  [6] Missing meta description
+  [1] Image has empty alt attribute
+  [1] Missing <title> tag
+  [1] Missing Open Graph tags
+
+Affected files (6):
+  - accessibility-statement.html
+  - copy-of-dutch-refund-policy.html
+  - copy-of-dutch-terms-conditions.html
+  - home.html
+  - portuguese-privacy-policy.html
+  ... and 1 more
+
+{
+  "script": "seo_checker",
+  "project": "E:\\APPS\\Projeto-Phoenix\\aura-odontologia-integrada",
+  "files_checked": 10,
+  "files_with_issues": 6,
+  "issues_found": 9,
+  "passed": false
+}

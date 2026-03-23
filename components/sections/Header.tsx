@@ -1,98 +1,128 @@
 "use client";
 
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { content } from "@/lib/content";
 import { motion, AnimatePresence } from "framer-motion";
+import { Button } from "@/components/ui/button";
+import { Menu, X, ArrowRight } from "lucide-react";
 
 const navLinks = [
-  { label: "Início", href: "#inicio" },
-  { label: "Sobre", href: "#sobre" },
-  { label: "Tratamentos", href: "#tratamentos" },
-  { label: "Equipe", href: "#equipe" },
-  { label: "Depoimentos", href: "#depoimentos" },
-  { label: "Contato", href: "#contato" },
+  { label: "Sobre a Clínica", href: "#sobre" },
+  { label: "Nossos Tratamentos", href: "#tratamentos" },
+  { label: "Corpo Clínico", href: "#equipe" },
+  { label: "Pacientes", href: "#depoimentos" },
 ];
 
 export default function Header() {
   const [isOpen, setIsOpen] = useState(false);
+  const [scrolled, setScrolled] = useState(false);
+
+  useEffect(() => {
+    const handleScroll = () => setScrolled(window.scrollY > 20);
+    window.addEventListener("scroll", handleScroll);
+    return () => window.removeEventListener("scroll", handleScroll);
+  }, []);
+
+  // Lock body scroll when mobile menu is open
+  useEffect(() => {
+    if (isOpen) {
+      document.body.style.overflow = "hidden";
+    } else {
+      document.body.style.overflow = "";
+    }
+    return () => {
+      document.body.style.overflow = "";
+    };
+  }, [isOpen]);
 
   return (
-    <header className="fixed top-0 left-0 right-0 z-50 bg-terracotta">
-      <div className="max-w-7xl mx-auto px-6 flex items-center justify-between h-16">
-        <a href="#inicio" className="text-white font-serif text-lg tracking-wide">
-          {content.companyName}
+    <>
+      <header className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${isOpen ? "bg-white py-4 border-b border-border" : scrolled ? "bg-white/95 backdrop-blur-sm border-b border-border py-4" : "bg-transparent py-6"}`}>
+        <div className="max-w-7xl mx-auto px-6 lg:px-12 flex items-center justify-between">
+        
+        {/* Logo / Brand */}
+        <a href="#inicio" className="flex flex-col relative z-[60] group">
+          <span className={`font-serif text-2xl tracking-wide transition-colors ${scrolled || isOpen ? "text-charcoal" : "text-terracotta"}`}>
+            AURA
+          </span>
+          <span className={`text-[0.65rem] tracking-[0.3em] font-medium uppercase mt-0.5 transition-colors ${scrolled || isOpen ? "text-charcoal-light" : "text-terracotta/80"}`}>
+            Odontologia
+          </span>
         </a>
 
         {/* Desktop Nav */}
-        <nav className="hidden md:flex items-center gap-8">
+        <nav className="hidden lg:flex items-center gap-8">
           {navLinks.map((link) => (
             <a
               key={link.href}
               href={link.href}
-              className="text-white/80 text-sm font-medium hover:text-white transition-colors duration-200"
+              className={`text-sm font-medium hover:text-terracotta transition-colors duration-200 ${scrolled ? "text-charcoal-light" : "text-charcoal/80"}`}
             >
               {link.label}
             </a>
           ))}
-          <a
-            href={content.whatsappUrl}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="bg-white text-terracotta text-sm font-semibold px-5 py-2 rounded-sm hover:bg-cream transition-colors duration-200"
-          >
-            Agendar Consulta
-          </a>
         </nav>
+
+        {/* Desktop CTA */}
+        <div className="hidden lg:flex items-center">
+          <Button asChild className="bg-terracotta hover:bg-terracotta-dark text-white rounded-none px-6 shadow-none flex items-center gap-2 h-11">
+            <a href={content.whatsappUrl} target="_blank" rel="noopener noreferrer">
+              Agendar Avaliação <ArrowRight className="w-4 h-4 ml-1" />
+            </a>
+          </Button>
+        </div>
 
         {/* Mobile Toggle */}
         <button
           onClick={() => setIsOpen(!isOpen)}
-          className="md:hidden text-white p-2"
+          className={`lg:hidden relative z-[60] p-2 -mr-2 transition-colors ${scrolled || isOpen ? "text-charcoal" : "text-terracotta"}`}
           aria-label="Menu"
         >
-          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
-            {isOpen ? (
-              <path d="M18 6L6 18M6 6l12 12" />
-            ) : (
-              <path d="M3 12h18M3 6h18M3 18h18" />
-            )}
-          </svg>
+          {isOpen ? <X className="w-6 h-6" /> : <Menu className="w-6 h-6" />}
         </button>
       </div>
+      </header>
 
-      {/* Mobile Menu */}
+      {/* Mobile Menu Full Screen Overlay */}
       <AnimatePresence>
         {isOpen && (
-          <motion.nav
-            initial={{ height: 0, opacity: 0 }}
-            animate={{ height: "auto", opacity: 1 }}
-            exit={{ height: 0, opacity: 0 }}
+          <motion.div
+            initial={{ opacity: 0, y: -20 }}
+            animate={{ opacity: 1, y: 0 }}
+            exit={{ opacity: 0, y: -20 }}
             transition={{ duration: 0.3, ease: "easeInOut" }}
-            className="md:hidden bg-terracotta-dark overflow-hidden"
+            className="fixed inset-0 z-40 bg-white pt-24 px-6 flex flex-col"
           >
-            <div className="px-6 py-4 flex flex-col gap-4">
-              {navLinks.map((link) => (
-                <a
+            <nav className="flex flex-col gap-6 mt-8">
+              {navLinks.map((link, i) => (
+                <motion.a
+                  initial={{ opacity: 0, x: -20 }}
+                  animate={{ opacity: 1, x: 0 }}
+                  transition={{ delay: i * 0.1 }}
                   key={link.href}
                   href={link.href}
                   onClick={() => setIsOpen(false)}
-                  className="text-white/90 text-base font-medium hover:text-white transition-colors"
+                  className="font-serif text-3xl text-charcoal hover:text-terracotta transition-colors border-b border-border pb-4"
                 >
                   {link.label}
-                </a>
+                </motion.a>
               ))}
-              <a
-                href={content.whatsappUrl}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="bg-white text-terracotta text-center font-semibold px-5 py-3 rounded-sm mt-2"
-              >
-                Agendar Consulta
-              </a>
-            </div>
-          </motion.nav>
+            </nav>
+            <motion.div 
+               initial={{ opacity: 0 }}
+               animate={{ opacity: 1 }}
+               transition={{ delay: 0.5 }}
+               className="mt-auto pb-12"
+            >
+              <Button asChild size="lg" className="w-full bg-terracotta text-white rounded-none shadow-none h-14 text-lg">
+                <a href={content.whatsappUrl} target="_blank" rel="noopener noreferrer">
+                  Agendar Avaliação
+                </a>
+              </Button>
+            </motion.div>
+          </motion.div>
         )}
       </AnimatePresence>
-    </header>
+    </>
   );
 }
