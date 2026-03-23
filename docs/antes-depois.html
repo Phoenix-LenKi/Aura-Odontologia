@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Comparativo: Antes x Depois</title>
+    <style>
+        body { font-family: sans-serif; background: #eee; padding: 2rem; display: flex; flex-direction: column; align-items: center; }
+        .grid { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; max-width: 1200px; width: 100%; }
+        .card { background: white; padding: 2rem; border-radius: 8px; box-shadow: 0 4px 10px rgba(0,0,0,0.1); }
+        h2 { text-align: center; }
+        .bad { color: #ef4444; }
+        .good { color: #10b981; }
+    </style>
+</head>
+<body>
+    <h1>Visão Comparativa de Valor</h1>
+    <div class="grid">
+        <div class="card">
+            <h2 class="bad">Site Antigo</h2>
+            <p>👎 Textos sobrepostos com fundo de mesma cor limitando leitura</p>
+            <p>👎 Botões grandes demais no celular, quebrando UX</p>
+            <p>👎 Aparência "barata", muito distante do ambiente físico moderno da clínica</p>
+            <p>👎 Carga de imagens pesada sem otimização WebP</p>
+            <p>👎 Falta de hierarquia de fontes legível (muitos blocos confusos)</p>
+        </div>
+        <div class="card">
+            <h2 class="good">Novo Site (Phoenix)</h2>
+            <p>✅ Componentização Next.js e Tailwind: Tipografia hierarquizada e fluida</p>
+            <p>✅ Contrastes otimizados que remetem a higiene clínica e autoridade</p>
+            <p>✅ Mobile-First extremo: botões espaçados para touch no celular</p>
+            <p>✅ Meta-tags Otimizadas com OpenGraph para compartilhamento de links estético</p>
+            <p>✅ Centralização de informações (content.ts) para fácil gerenciamento futuro</p>
+        </div>
+    </div>
+</body>
+</html>
